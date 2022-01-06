@@ -29,22 +29,22 @@ namespace projekakhir
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvlaporan = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvlaporan)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvlaporan
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(37, 48);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(504, 276);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvlaporan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvlaporan.Location = new System.Drawing.Point(37, 48);
+            this.dgvlaporan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvlaporan.Name = "dgvlaporan";
+            this.dgvlaporan.RowHeadersWidth = 82;
+            this.dgvlaporan.RowTemplate.Height = 33;
+            this.dgvlaporan.Size = new System.Drawing.Size(504, 276);
+            this.dgvlaporan.TabIndex = 0;
             // 
             // menuStrip1
             // 
@@ -71,13 +71,14 @@ namespace projekakhir
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(585, 363);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvlaporan);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "laporan";
-            this.Text = "laporan";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Laporan";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvlaporan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -85,7 +86,7 @@ namespace projekakhir
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvlaporan;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Label label1;
     }

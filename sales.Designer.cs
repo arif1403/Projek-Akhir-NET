@@ -31,21 +31,28 @@ namespace projekakhir
         {
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.tbharga = new System.Windows.Forms.TextBox();
+            this.dgvtransaksi = new System.Windows.Forms.DataGridView();
+            this.cbjenisbarang = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbkuantiti = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tbnamakaryawan = new System.Windows.Forms.TextBox();
+            this.tbnomortelp = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dtptanggal = new System.Windows.Forms.DateTimePicker();
+            this.tbnamabarang = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btsave = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tbidbarang = new System.Windows.Forms.TextBox();
+            this.btdelete = new System.Windows.Forms.Button();
+            this.btupdate = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvtransaksi)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -61,104 +68,110 @@ namespace projekakhir
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(71, 134);
+            this.label1.Location = new System.Drawing.Point(22, 70);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "item";
+            this.label1.Text = "Jenis Barang";
             // 
-            // textBox1
+            // tbharga
             // 
-            this.textBox1.Location = new System.Drawing.Point(330, 134);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(92, 20);
-            this.textBox1.TabIndex = 2;
+            this.tbharga.Location = new System.Drawing.Point(342, 104);
+            this.tbharga.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbharga.Name = "tbharga";
+            this.tbharga.Size = new System.Drawing.Size(92, 20);
+            this.tbharga.TabIndex = 2;
             // 
-            // dataGridView1
+            // dgvtransaksi
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(78, 252);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(544, 185);
-            this.dataGridView1.TabIndex = 3;
+            this.dgvtransaksi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvtransaksi.Location = new System.Drawing.Point(126, 193);
+            this.dgvtransaksi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvtransaksi.Name = "dgvtransaksi";
+            this.dgvtransaksi.RowHeadersWidth = 82;
+            this.dgvtransaksi.RowTemplate.Height = 33;
+            this.dgvtransaksi.Size = new System.Drawing.Size(541, 185);
+            this.dgvtransaksi.TabIndex = 3;
             // 
-            // comboBox1
+            // cbjenisbarang
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(125, 134);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(130, 21);
-            this.comboBox1.TabIndex = 4;
+            this.cbjenisbarang.FormattingEnabled = true;
+            this.cbjenisbarang.Items.AddRange(new object[] {
+            "Elctronic",
+            "Furniture",
+            "Sembako",
+            "Fashion",
+            "Makanan"});
+            this.cbjenisbarang.Location = new System.Drawing.Point(125, 67);
+            this.cbjenisbarang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbjenisbarang.Name = "cbjenisbarang";
+            this.cbjenisbarang.Size = new System.Drawing.Size(130, 21);
+            this.cbjenisbarang.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(284, 138);
+            this.label2.Location = new System.Drawing.Point(285, 108);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(36, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "harga";
+            this.label2.Text = "Harga";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(476, 139);
+            this.label3.Location = new System.Drawing.Point(477, 109);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
+            this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "kuantiti";
+            this.label3.Text = "Kuantiti";
             // 
-            // textBox2
+            // tbkuantiti
             // 
-            this.textBox2.Location = new System.Drawing.Point(521, 135);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(92, 20);
-            this.textBox2.TabIndex = 6;
+            this.tbkuantiti.Location = new System.Drawing.Point(540, 104);
+            this.tbkuantiti.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbkuantiti.Name = "tbkuantiti";
+            this.tbkuantiti.Size = new System.Drawing.Size(92, 20);
+            this.tbkuantiti.TabIndex = 6;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(71, 36);
+            this.label4.Location = new System.Drawing.Point(22, 36);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 13);
+            this.label4.Size = new System.Drawing.Size(85, 13);
             this.label4.TabIndex = 8;
-            this.label4.Text = "nama";
+            this.label4.Text = "Nama Karyawan";
             // 
-            // textBox3
+            // tbnamakaryawan
             // 
-            this.textBox3.Location = new System.Drawing.Point(125, 33);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(130, 20);
-            this.textBox3.TabIndex = 9;
+            this.tbnamakaryawan.Location = new System.Drawing.Point(125, 33);
+            this.tbnamakaryawan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbnamakaryawan.Name = "tbnamakaryawan";
+            this.tbnamakaryawan.Size = new System.Drawing.Size(130, 20);
+            this.tbnamakaryawan.TabIndex = 9;
             // 
-            // textBox4
+            // tbnomortelp
             // 
-            this.textBox4.Location = new System.Drawing.Point(330, 33);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(125, 20);
-            this.textBox4.TabIndex = 11;
+            this.tbnomortelp.Location = new System.Drawing.Point(342, 33);
+            this.tbnomortelp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbnomortelp.Name = "tbnomortelp";
+            this.tbnomortelp.Size = new System.Drawing.Size(113, 20);
+            this.tbnomortelp.TabIndex = 11;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(285, 36);
+            this.label5.Location = new System.Drawing.Point(283, 33);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 13);
+            this.label5.Size = new System.Drawing.Size(46, 13);
             this.label5.TabIndex = 10;
-            this.label5.Text = "telpon";
+            this.label5.Text = "Telepon";
             // 
             // label6
             // 
@@ -166,9 +179,9 @@ namespace projekakhir
             this.label6.Location = new System.Drawing.Point(474, 36);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 13);
+            this.label6.Size = new System.Drawing.Size(46, 13);
             this.label6.TabIndex = 12;
-            this.label6.Text = "tanggal";
+            this.label6.Text = "Tanggal";
             // 
             // textBox6
             // 
@@ -188,38 +201,109 @@ namespace projekakhir
             this.label7.TabIndex = 14;
             this.label7.Text = "total";
             // 
-            // dateTimePicker1
+            // dtptanggal
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(539, 33);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(127, 20);
-            this.dateTimePicker1.TabIndex = 16;
+            this.dtptanggal.Location = new System.Drawing.Point(539, 33);
+            this.dtptanggal.Name = "dtptanggal";
+            this.dtptanggal.Size = new System.Drawing.Size(127, 20);
+            this.dtptanggal.TabIndex = 16;
+            // 
+            // tbnamabarang
+            // 
+            this.tbnamabarang.Location = new System.Drawing.Point(125, 104);
+            this.tbnamabarang.Margin = new System.Windows.Forms.Padding(2);
+            this.tbnamabarang.Name = "tbnamabarang";
+            this.tbnamabarang.Size = new System.Drawing.Size(130, 20);
+            this.tbnamabarang.TabIndex = 9;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(22, 109);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(72, 13);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Nama Barang";
+            // 
+            // btsave
+            // 
+            this.btsave.Location = new System.Drawing.Point(127, 148);
+            this.btsave.Name = "btsave";
+            this.btsave.Size = new System.Drawing.Size(129, 23);
+            this.btsave.TabIndex = 17;
+            this.btsave.Text = "SAVE";
+            this.btsave.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(285, 70);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 13);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Id Barang";
+            // 
+            // tbidbarang
+            // 
+            this.tbidbarang.Location = new System.Drawing.Point(342, 67);
+            this.tbidbarang.Margin = new System.Windows.Forms.Padding(2);
+            this.tbidbarang.Name = "tbidbarang";
+            this.tbidbarang.Size = new System.Drawing.Size(61, 20);
+            this.tbidbarang.TabIndex = 9;
+            // 
+            // btdelete
+            // 
+            this.btdelete.Location = new System.Drawing.Point(317, 148);
+            this.btdelete.Name = "btdelete";
+            this.btdelete.Size = new System.Drawing.Size(129, 23);
+            this.btdelete.TabIndex = 17;
+            this.btdelete.Text = "DELETE";
+            this.btdelete.UseVisualStyleBackColor = true;
+            // 
+            // btupdate
+            // 
+            this.btupdate.Location = new System.Drawing.Point(503, 148);
+            this.btupdate.Name = "btupdate";
+            this.btupdate.Size = new System.Drawing.Size(129, 23);
+            this.btupdate.TabIndex = 17;
+            this.btupdate.Text = "UPDATE";
+            this.btupdate.UseVisualStyleBackColor = true;
             // 
             // sales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(678, 389);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.btupdate);
+            this.Controls.Add(this.btdelete);
+            this.Controls.Add(this.btsave);
+            this.Controls.Add(this.dtptanggal);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.tbnomortelp);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tbidbarang);
+            this.Controls.Add(this.tbnamabarang);
+            this.Controls.Add(this.tbnamakaryawan);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbkuantiti);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cbjenisbarang);
+            this.Controls.Add(this.dgvtransaksi);
+            this.Controls.Add(this.tbharga);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "sales";
-            this.Text = "sales";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Transaksi";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvtransaksi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,19 +313,26 @@ namespace projekakhir
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox tbharga;
+        private System.Windows.Forms.DataGridView dgvtransaksi;
+        private System.Windows.Forms.ComboBox cbjenisbarang;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbkuantiti;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tbnamakaryawan;
+        private System.Windows.Forms.TextBox tbnomortelp;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtptanggal;
+        private System.Windows.Forms.TextBox tbnamabarang;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btsave;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox tbidbarang;
+        private System.Windows.Forms.Button btdelete;
+        private System.Windows.Forms.Button btupdate;
     }
 }
