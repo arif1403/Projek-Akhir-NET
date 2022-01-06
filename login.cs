@@ -23,5 +23,12 @@ namespace projekakhir
             reg.Show();
             this.Hide();
         }
+
+        private void btlogin_Click(object sender, EventArgs e)
+        {
+            dasboard dsb = new dasboard();
+            dsb.Show();
+            this.Hide();
+        }
     }
 }

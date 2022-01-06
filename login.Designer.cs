@@ -68,6 +68,7 @@ namespace projekakhir
             this.btlogin.TabIndex = 4;
             this.btlogin.Text = "LOGIN";
             this.btlogin.UseVisualStyleBackColor = true;
+            this.btlogin.Click += new System.EventHandler(this.btlogin_Click);
             // 
             // cbrole
             // 
