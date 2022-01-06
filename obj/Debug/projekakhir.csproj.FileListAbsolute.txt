@@ -1,0 +1,16 @@
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\bin\Debug\projekakhir.exe.config
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\bin\Debug\projekakhir.exe
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\bin\Debug\projekakhir.pdb
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.csproj.AssemblyReference.cache
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.dasboard.resources
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.Form1.resources
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.laporan.resources
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.login.resources
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.Properties.Resources.resources
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.Registrasi.resources
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.sales.resources
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.toko.resources
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.csproj.GenerateResource.cache
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.exe
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET_arif\obj\Debug\projekakhir.pdb

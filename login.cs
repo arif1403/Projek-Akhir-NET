@@ -16,5 +16,12 @@ namespace projekakhir
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Registrasi reg = new Registrasi();
+            reg.Show();
+            this.Hide();
+        }
     }
 }
