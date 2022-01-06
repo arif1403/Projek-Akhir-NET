@@ -37,6 +37,7 @@ namespace projekakhir
             this.label3 = new System.Windows.Forms.Label();
             this.cbrole = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -80,10 +81,10 @@ namespace projekakhir
             // btlogin
             // 
             this.btlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btlogin.Location = new System.Drawing.Point(169, 204);
+            this.btlogin.Location = new System.Drawing.Point(159, 182);
             this.btlogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btlogin.Name = "btlogin";
-            this.btlogin.Size = new System.Drawing.Size(68, 24);
+            this.btlogin.Size = new System.Drawing.Size(78, 23);
             this.btlogin.TabIndex = 4;
             this.btlogin.Text = "LOGIN";
             this.btlogin.UseVisualStyleBackColor = true;
@@ -122,11 +123,22 @@ namespace projekakhir
             this.label4.TabIndex = 0;
             this.label4.Text = "Pilih Role";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(76, 182);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(78, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Registrasi";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(307, 248);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.cbrole);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btlogin);
@@ -154,5 +166,6 @@ namespace projekakhir
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbrole;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
