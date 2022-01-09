@@ -16,5 +16,23 @@ namespace projekakhir
         {
             InitializeComponent();
         }
+
+        private void menukaryawan_Click(object sender, EventArgs e)
+        {
+            Mkaryawan form_karyawan = new Mkaryawan();
+            form_karyawan.Show();
+        }
+
+        private void menulaporanpenjualan_Click(object sender, EventArgs e)
+        {
+            laporan form_laporan = new laporan();
+            form_laporan.Show();
+        }
+
+        private void manajemenToko_Click(object sender, EventArgs e)
+        {
+            manajemenToko form_toko = new manajemenToko();
+            form_toko.Show();
+        }
     }
 }

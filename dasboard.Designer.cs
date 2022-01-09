@@ -36,6 +36,7 @@ namespace projekakhir
             this.menupenjualan = new System.Windows.Forms.ToolStripMenuItem();
             this.menulaporanpenjualan = new System.Windows.Forms.ToolStripMenuItem();
             this.keluarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manajemenToko = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,58 +50,67 @@ namespace projekakhir
             this.menustok,
             this.menupenjualan,
             this.menulaporanpenjualan,
-            this.keluarToolStripMenuItem});
+            this.keluarToolStripMenuItem,
+            this.manajemenToko});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1366, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(1520, 42);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // menukaryawan
             // 
             this.menukaryawan.Name = "menukaryawan";
-            this.menukaryawan.Size = new System.Drawing.Size(270, 36);
+            this.menukaryawan.Size = new System.Drawing.Size(270, 38);
             this.menukaryawan.Text = "Manajemen Karyawan";
+            this.menukaryawan.Click += new System.EventHandler(this.menukaryawan_Click);
             // 
             // menuitem
             // 
             this.menuitem.Name = "menuitem";
-            this.menuitem.Size = new System.Drawing.Size(217, 36);
+            this.menuitem.Size = new System.Drawing.Size(217, 38);
             this.menuitem.Text = "Manajemen Item";
             // 
             // menustok
             // 
             this.menustok.Name = "menustok";
-            this.menustok.Size = new System.Drawing.Size(215, 36);
+            this.menustok.Size = new System.Drawing.Size(215, 38);
             this.menustok.Text = "Manajemen Stok";
             // 
             // menupenjualan
             // 
             this.menupenjualan.Name = "menupenjualan";
-            this.menupenjualan.Size = new System.Drawing.Size(272, 36);
+            this.menupenjualan.Size = new System.Drawing.Size(272, 38);
             this.menupenjualan.Text = "Manajemen Penjualan";
             // 
             // menulaporanpenjualan
             // 
             this.menulaporanpenjualan.Name = "menulaporanpenjualan";
-            this.menulaporanpenjualan.Size = new System.Drawing.Size(127, 36);
+            this.menulaporanpenjualan.Size = new System.Drawing.Size(127, 38);
             this.menulaporanpenjualan.Text = "Laporan ";
+            this.menulaporanpenjualan.Click += new System.EventHandler(this.menulaporanpenjualan_Click);
             // 
             // keluarToolStripMenuItem
             // 
             this.keluarToolStripMenuItem.Name = "keluarToolStripMenuItem";
-            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(102, 36);
+            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(102, 38);
             this.keluarToolStripMenuItem.Text = "Keluar";
+            // 
+            // manajemenToko
+            // 
+            this.manajemenToko.Name = "manajemenToko";
+            this.manajemenToko.Size = new System.Drawing.Size(217, 38);
+            this.manajemenToko.Text = "Manajemen toko";
+            this.manajemenToko.Click += new System.EventHandler(this.manajemenToko_Click);
             // 
             // dasboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1366, 748);
+            this.ClientSize = new System.Drawing.Size(1520, 820);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "dasboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dasboard";
@@ -120,5 +130,6 @@ namespace projekakhir
         private System.Windows.Forms.ToolStripMenuItem menupenjualan;
         private System.Windows.Forms.ToolStripMenuItem menulaporanpenjualan;
         private System.Windows.Forms.ToolStripMenuItem keluarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manajemenToko;
     }
 }

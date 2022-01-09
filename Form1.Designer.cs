@@ -1,7 +1,7 @@
 ﻿
 namespace projekakhir
 {
-    partial class Form1
+    partial class Mkaryawan
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace projekakhir
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mkaryawan));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -119,7 +119,7 @@ namespace projekakhir
             // tbnama
             // 
             this.tbnama.Location = new System.Drawing.Point(292, 104);
-            this.tbnama.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbnama.Margin = new System.Windows.Forms.Padding(4);
             this.tbnama.Name = "tbnama";
             this.tbnama.Size = new System.Drawing.Size(218, 31);
             this.tbnama.TabIndex = 6;
@@ -127,7 +127,7 @@ namespace projekakhir
             // tbid
             // 
             this.tbid.Location = new System.Drawing.Point(292, 162);
-            this.tbid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbid.Margin = new System.Windows.Forms.Padding(4);
             this.tbid.Name = "tbid";
             this.tbid.Size = new System.Drawing.Size(218, 31);
             this.tbid.TabIndex = 7;
@@ -135,7 +135,7 @@ namespace projekakhir
             // tbalamat
             // 
             this.tbalamat.Location = new System.Drawing.Point(908, 96);
-            this.tbalamat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbalamat.Margin = new System.Windows.Forms.Padding(4);
             this.tbalamat.Name = "tbalamat";
             this.tbalamat.Size = new System.Drawing.Size(218, 31);
             this.tbalamat.TabIndex = 9;
@@ -144,7 +144,7 @@ namespace projekakhir
             // 
             this.tbgaji.ForeColor = System.Drawing.Color.Gray;
             this.tbgaji.Location = new System.Drawing.Point(292, 221);
-            this.tbgaji.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbgaji.Margin = new System.Windows.Forms.Padding(4);
             this.tbgaji.Name = "tbgaji";
             this.tbgaji.Size = new System.Drawing.Size(218, 31);
             this.tbgaji.TabIndex = 8;
@@ -153,7 +153,7 @@ namespace projekakhir
             // tbnmrtlp
             // 
             this.tbnmrtlp.Location = new System.Drawing.Point(908, 163);
-            this.tbnmrtlp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbnmrtlp.Margin = new System.Windows.Forms.Padding(4);
             this.tbnmrtlp.Name = "tbnmrtlp";
             this.tbnmrtlp.Size = new System.Drawing.Size(218, 31);
             this.tbnmrtlp.TabIndex = 10;
@@ -162,7 +162,7 @@ namespace projekakhir
             // 
             this.tbpekerjaan.FormattingEnabled = true;
             this.tbpekerjaan.Location = new System.Drawing.Point(908, 219);
-            this.tbpekerjaan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbpekerjaan.Margin = new System.Windows.Forms.Padding(4);
             this.tbpekerjaan.Name = "tbpekerjaan";
             this.tbpekerjaan.Size = new System.Drawing.Size(216, 33);
             this.tbpekerjaan.TabIndex = 11;
@@ -171,7 +171,7 @@ namespace projekakhir
             // 
             this.dgvkaryawan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvkaryawan.Location = new System.Drawing.Point(116, 398);
-            this.dgvkaryawan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvkaryawan.Margin = new System.Windows.Forms.Padding(4);
             this.dgvkaryawan.Name = "dgvkaryawan";
             this.dgvkaryawan.RowHeadersWidth = 82;
             this.dgvkaryawan.RowTemplate.Height = 33;
@@ -181,7 +181,7 @@ namespace projekakhir
             // bttambah
             // 
             this.bttambah.Location = new System.Drawing.Point(116, 310);
-            this.bttambah.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttambah.Margin = new System.Windows.Forms.Padding(4);
             this.bttambah.Name = "bttambah";
             this.bttambah.Size = new System.Drawing.Size(172, 52);
             this.bttambah.TabIndex = 13;
@@ -191,7 +191,7 @@ namespace projekakhir
             // btupdate
             // 
             this.btupdate.Location = new System.Drawing.Point(338, 310);
-            this.btupdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btupdate.Margin = new System.Windows.Forms.Padding(4);
             this.btupdate.Name = "btupdate";
             this.btupdate.Size = new System.Drawing.Size(172, 52);
             this.btupdate.TabIndex = 14;
@@ -201,7 +201,7 @@ namespace projekakhir
             // bthapus
             // 
             this.bthapus.Location = new System.Drawing.Point(540, 310);
-            this.bthapus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bthapus.Margin = new System.Windows.Forms.Padding(4);
             this.bthapus.Name = "bthapus";
             this.bthapus.Size = new System.Drawing.Size(172, 52);
             this.bthapus.TabIndex = 16;
@@ -220,7 +220,7 @@ namespace projekakhir
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0);
-            this.toolStrip1.Size = new System.Drawing.Size(1278, 42);
+            this.toolStrip1.Size = new System.Drawing.Size(1278, 50);
             this.toolStrip1.TabIndex = 18;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -252,10 +252,10 @@ namespace projekakhir
             this.btcari.Image = ((System.Drawing.Image)(resources.GetObject("btcari.Image")));
             this.btcari.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btcari.Name = "btcari";
-            this.btcari.Size = new System.Drawing.Size(46, 36);
+            this.btcari.Size = new System.Drawing.Size(46, 44);
             this.btcari.Text = "toolStripButton2";
             // 
-            // Form1
+            // Mkaryawan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -277,8 +277,8 @@ namespace projekakhir
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Mkaryawan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kelola Karyawan";
             ((System.ComponentModel.ISupportInitialize)(this.dgvkaryawan)).EndInit();

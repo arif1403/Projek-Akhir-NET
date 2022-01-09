@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projekakhir
 {
-    public partial class Form1 : Form
+    public partial class Mkaryawan : Form
     {
-        public Form1()
+        public Mkaryawan()
         {
             InitializeComponent();
         }
