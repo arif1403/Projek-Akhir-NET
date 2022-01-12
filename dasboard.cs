@@ -21,6 +21,7 @@ namespace projekakhir
         {
             Mkaryawan form_karyawan = new Mkaryawan();
             form_karyawan.Show();
+            this.Close();
         }
 
         private void menulaporanpenjualan_Click(object sender, EventArgs e)
@@ -47,6 +48,11 @@ namespace projekakhir
             {
                 Application.Exit();
             }
+        }
+
+        private void menuitem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

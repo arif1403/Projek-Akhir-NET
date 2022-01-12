@@ -52,11 +52,11 @@
     <Compile Include="dasboard.Designer.cs">
       <DependentUpon>dasboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="mKaryawan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="mKaryawan.Designer.cs">
+      <DependentUpon>mKaryawan.cs</DependentUpon>
     </Compile>
     <Compile Include="laporan.cs">
       <SubType>Form</SubType>
@@ -93,8 +93,8 @@
     <EmbeddedResource Include="dasboard.resx">
       <DependentUpon>dasboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="mKaryawan.resx">
+      <DependentUpon>mKaryawan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="laporan.resx">
       <DependentUpon>laporan.cs</DependentUpon>
