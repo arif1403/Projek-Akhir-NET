@@ -30,3 +30,19 @@ C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.csproj.CoreC
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.exe
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.pdb
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.mPenjualan.resources
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\bin\Debug\projekakhir.exe.config
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\bin\Debug\projekakhir.exe
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\bin\Debug\projekakhir.pdb
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.csproj.AssemblyReference.cache
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.dasboard.resources
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.Mkaryawan.resources
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.laporan.resources
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.login.resources
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.Properties.Resources.resources
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.Registrasi.resources
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.mPenjualan.resources
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.toko.resources
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.csproj.GenerateResource.cache
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.exe
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.pdb

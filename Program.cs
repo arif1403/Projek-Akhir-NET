@@ -16,7 +16,7 @@ namespace projekakhir
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new dasboard());
+            Application.Run(new login());
         }
     }
 }
