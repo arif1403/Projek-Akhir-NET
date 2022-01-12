@@ -59,7 +59,7 @@ namespace projekakhir
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(548, 458);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 32);
             this.button1.TabIndex = 0;
@@ -79,7 +79,7 @@ namespace projekakhir
             // tbharga
             // 
             this.tbharga.Location = new System.Drawing.Point(342, 104);
-            this.tbharga.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbharga.Margin = new System.Windows.Forms.Padding(2);
             this.tbharga.Name = "tbharga";
             this.tbharga.Size = new System.Drawing.Size(92, 20);
             this.tbharga.TabIndex = 2;
@@ -88,7 +88,7 @@ namespace projekakhir
             // 
             this.dgvtransaksi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvtransaksi.Location = new System.Drawing.Point(126, 193);
-            this.dgvtransaksi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvtransaksi.Margin = new System.Windows.Forms.Padding(2);
             this.dgvtransaksi.Name = "dgvtransaksi";
             this.dgvtransaksi.RowHeadersWidth = 82;
             this.dgvtransaksi.RowTemplate.Height = 33;
@@ -105,7 +105,7 @@ namespace projekakhir
             "Fashion",
             "Makanan"});
             this.cbjenisbarang.Location = new System.Drawing.Point(125, 67);
-            this.cbjenisbarang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbjenisbarang.Margin = new System.Windows.Forms.Padding(2);
             this.cbjenisbarang.Name = "cbjenisbarang";
             this.cbjenisbarang.Size = new System.Drawing.Size(130, 21);
             this.cbjenisbarang.TabIndex = 4;
@@ -133,7 +133,7 @@ namespace projekakhir
             // tbkuantiti
             // 
             this.tbkuantiti.Location = new System.Drawing.Point(540, 104);
-            this.tbkuantiti.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbkuantiti.Margin = new System.Windows.Forms.Padding(2);
             this.tbkuantiti.Name = "tbkuantiti";
             this.tbkuantiti.Size = new System.Drawing.Size(92, 20);
             this.tbkuantiti.TabIndex = 6;
@@ -151,7 +151,7 @@ namespace projekakhir
             // tbnamakaryawan
             // 
             this.tbnamakaryawan.Location = new System.Drawing.Point(125, 33);
-            this.tbnamakaryawan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbnamakaryawan.Margin = new System.Windows.Forms.Padding(2);
             this.tbnamakaryawan.Name = "tbnamakaryawan";
             this.tbnamakaryawan.Size = new System.Drawing.Size(130, 20);
             this.tbnamakaryawan.TabIndex = 9;
@@ -159,7 +159,7 @@ namespace projekakhir
             // tbnomortelp
             // 
             this.tbnomortelp.Location = new System.Drawing.Point(342, 33);
-            this.tbnomortelp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbnomortelp.Margin = new System.Windows.Forms.Padding(2);
             this.tbnomortelp.Name = "tbnomortelp";
             this.tbnomortelp.Size = new System.Drawing.Size(113, 20);
             this.tbnomortelp.TabIndex = 11;
@@ -187,7 +187,7 @@ namespace projekakhir
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(471, 468);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(59, 20);
             this.textBox6.TabIndex = 15;
@@ -212,7 +212,7 @@ namespace projekakhir
             // tbnamabarang
             // 
             this.tbnamabarang.Location = new System.Drawing.Point(125, 104);
-            this.tbnamabarang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbnamabarang.Margin = new System.Windows.Forms.Padding(2);
             this.tbnamabarang.Name = "tbnamabarang";
             this.tbnamabarang.Size = new System.Drawing.Size(130, 20);
             this.tbnamabarang.TabIndex = 9;
@@ -249,7 +249,7 @@ namespace projekakhir
             // tbidbarang
             // 
             this.tbidbarang.Location = new System.Drawing.Point(342, 67);
-            this.tbidbarang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbidbarang.Margin = new System.Windows.Forms.Padding(2);
             this.tbidbarang.Name = "tbidbarang";
             this.tbidbarang.Size = new System.Drawing.Size(61, 20);
             this.tbidbarang.TabIndex = 9;
@@ -311,10 +311,11 @@ namespace projekakhir
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "mPenjualan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Transaksi";
+            this.Load += new System.EventHandler(this.mPenjualan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvtransaksi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

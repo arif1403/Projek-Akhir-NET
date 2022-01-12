@@ -189,6 +189,7 @@ namespace projekakhir
             this.bttambah.TabIndex = 13;
             this.bttambah.Text = "TAMBAH";
             this.bttambah.UseVisualStyleBackColor = true;
+            this.bttambah.Click += new System.EventHandler(this.bttambah_Click);
             // 
             // btupdate
             // 
@@ -199,6 +200,7 @@ namespace projekakhir
             this.btupdate.TabIndex = 14;
             this.btupdate.Text = "UPDATE";
             this.btupdate.UseVisualStyleBackColor = true;
+            this.btupdate.Click += new System.EventHandler(this.btupdate_Click);
             // 
             // bthapus
             // 
@@ -209,6 +211,7 @@ namespace projekakhir
             this.bthapus.TabIndex = 16;
             this.bthapus.Text = "HAPUS";
             this.bthapus.UseVisualStyleBackColor = true;
+            this.bthapus.Click += new System.EventHandler(this.bthapus_Click);
             // 
             // toolStrip1
             // 
@@ -304,6 +307,7 @@ namespace projekakhir
             this.Name = "Mkaryawan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kelola Karyawan";
+            this.Load += new System.EventHandler(this.Mkaryawan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvkaryawan)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

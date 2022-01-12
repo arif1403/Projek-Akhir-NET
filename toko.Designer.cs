@@ -248,6 +248,7 @@ namespace projekakhir
             this.Name = "toko";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "toko";
+            this.Load += new System.EventHandler(this.toko_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvtoko)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
