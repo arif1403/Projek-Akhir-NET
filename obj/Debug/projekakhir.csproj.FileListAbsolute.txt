@@ -24,9 +24,9 @@ C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.laporan.reso
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.login.resources
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.Properties.Resources.resources
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.Registrasi.resources
-C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.sales.resources
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.toko.resources
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.csproj.GenerateResource.cache
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.exe
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.pdb
+C:\Users\bonda\Source\Repos\Projek-Akhir-NET2\obj\Debug\projekakhir.mPenjualan.resources

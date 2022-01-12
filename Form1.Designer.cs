@@ -220,31 +220,31 @@ namespace projekakhir
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0);
-            this.toolStrip1.Size = new System.Drawing.Size(1278, 50);
+            this.toolStrip1.Size = new System.Drawing.Size(1283, 42);
             this.toolStrip1.TabIndex = 18;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 50);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 42);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(77, 44);
+            this.toolStripLabel1.Size = new System.Drawing.Size(77, 36);
             this.toolStripLabel1.Text = "CARI :";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 50);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 42);
             // 
             // tbcari
             // 
             this.tbcari.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbcari.Name = "tbcari";
-            this.tbcari.Size = new System.Drawing.Size(300, 50);
+            this.tbcari.Size = new System.Drawing.Size(300, 42);
             // 
             // btcari
             // 
@@ -252,14 +252,14 @@ namespace projekakhir
             this.btcari.Image = ((System.Drawing.Image)(resources.GetObject("btcari.Image")));
             this.btcari.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btcari.Name = "btcari";
-            this.btcari.Size = new System.Drawing.Size(46, 44);
+            this.btcari.Size = new System.Drawing.Size(46, 36);
             this.btcari.Text = "toolStripButton2";
             // 
             // Mkaryawan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1278, 748);
+            this.ClientSize = new System.Drawing.Size(1283, 925);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.bthapus);
             this.Controls.Add(this.btupdate);

@@ -82,6 +82,7 @@ namespace projekakhir
             this.menupenjualan.Name = "menupenjualan";
             this.menupenjualan.Size = new System.Drawing.Size(272, 38);
             this.menupenjualan.Text = "Manajemen Penjualan";
+            this.menupenjualan.Click += new System.EventHandler(this.menupenjualan_Click);
             // 
             // menulaporanpenjualan
             // 
@@ -95,6 +96,7 @@ namespace projekakhir
             this.keluarToolStripMenuItem.Name = "keluarToolStripMenuItem";
             this.keluarToolStripMenuItem.Size = new System.Drawing.Size(102, 38);
             this.keluarToolStripMenuItem.Text = "Keluar";
+            this.keluarToolStripMenuItem.Click += new System.EventHandler(this.keluarToolStripMenuItem_Click);
             // 
             // manajemenToko
             // 

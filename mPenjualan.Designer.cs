@@ -1,7 +1,7 @@
 ﻿
 namespace projekakhir
 {
-    partial class sales
+    partial class mPenjualan
     {
         /// <summary>
         /// Required designer variable.

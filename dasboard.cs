@@ -31,8 +31,22 @@ namespace projekakhir
 
         private void manajemenToko_Click(object sender, EventArgs e)
         {
-            manajemenToko form_toko = new manajemenToko();
+            toko form_toko = new toko();
             form_toko.Show();
+        }
+
+        private void menupenjualan_Click(object sender, EventArgs e)
+        {
+            mPenjualan form_penjualan = new mPenjualan();
+            form_penjualan.Show();
+        }
+
+        private void keluarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Yakin akan keluar?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+                Application.Exit();
+            }
         }
     }
 }

@@ -78,11 +78,11 @@
     <Compile Include="Registrasi.Designer.cs">
       <DependentUpon>Registrasi.cs</DependentUpon>
     </Compile>
-    <Compile Include="sales.cs">
+    <Compile Include="mPenjualan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="sales.Designer.cs">
-      <DependentUpon>sales.cs</DependentUpon>
+    <Compile Include="mPenjualan.Designer.cs">
+      <DependentUpon>mPenjualan.cs</DependentUpon>
     </Compile>
     <Compile Include="toko.cs">
       <SubType>Form</SubType>
@@ -114,8 +114,8 @@
     <EmbeddedResource Include="Registrasi.resx">
       <DependentUpon>Registrasi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="sales.resx">
-      <DependentUpon>sales.cs</DependentUpon>
+    <EmbeddedResource Include="mPenjualan.resx">
+      <DependentUpon>mPenjualan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="toko.resx">
       <DependentUpon>toko.cs</DependentUpon>
