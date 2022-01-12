@@ -34,8 +34,8 @@ namespace projekakhir
             this.menustok = new System.Windows.Forms.ToolStripMenuItem();
             this.menupenjualan = new System.Windows.Forms.ToolStripMenuItem();
             this.menulaporanpenjualan = new System.Windows.Forms.ToolStripMenuItem();
-            this.keluarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manajemenToko = new System.Windows.Forms.ToolStripMenuItem();
+            this.keluarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,8 +46,8 @@ namespace projekakhir
             this.menukaryawan,
             this.menustok,
             this.menupenjualan,
-            this.menulaporanpenjualan,
             this.manajemenToko,
+            this.menulaporanpenjualan,
             this.keluarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -84,19 +84,19 @@ namespace projekakhir
             this.menulaporanpenjualan.Text = "Laporan ";
             this.menulaporanpenjualan.Click += new System.EventHandler(this.menulaporanpenjualan_Click);
             // 
-            // keluarToolStripMenuItem
-            // 
-            this.keluarToolStripMenuItem.Name = "keluarToolStripMenuItem";
-            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(52, 22);
-            this.keluarToolStripMenuItem.Text = "Keluar";
-            this.keluarToolStripMenuItem.Click += new System.EventHandler(this.keluarToolStripMenuItem_Click);
-            // 
             // manajemenToko
             // 
             this.manajemenToko.Name = "manajemenToko";
             this.manajemenToko.Size = new System.Drawing.Size(109, 22);
             this.manajemenToko.Text = "Manajemen toko";
             this.manajemenToko.Click += new System.EventHandler(this.manajemenToko_Click);
+            // 
+            // keluarToolStripMenuItem
+            // 
+            this.keluarToolStripMenuItem.Name = "keluarToolStripMenuItem";
+            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(52, 22);
+            this.keluarToolStripMenuItem.Text = "Keluar";
+            this.keluarToolStripMenuItem.Click += new System.EventHandler(this.keluarToolStripMenuItem_Click);
             // 
             // dasboard
             // 
@@ -105,7 +105,7 @@ namespace projekakhir
             this.ClientSize = new System.Drawing.Size(685, 389);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "dasboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dasboard";

@@ -47,3 +47,20 @@ C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.csproj.C
 C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.exe
 C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.pdb
 C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.stock_management.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\bin\Debug\projekakhir.exe.config
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\bin\Debug\projekakhir.exe
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\bin\Debug\projekakhir.pdb
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.csproj.AssemblyReference.cache
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.dasboard.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.Mkaryawan.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.laporan.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.login.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.Properties.Resources.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.Registrasi.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.mPenjualan.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.stock_management.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.toko.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.csproj.GenerateResource.cache
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.exe
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.pdb

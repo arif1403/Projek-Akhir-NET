@@ -45,6 +45,7 @@ namespace projekakhir
             this.btcari = new System.Windows.Forms.Button();
             this.btdelete = new System.Windows.Forms.Button();
             this.btupdate = new System.Windows.Forms.Button();
+            this.btback = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtoko)).BeginInit();
             this.SuspendLayout();
             // 
@@ -198,6 +199,17 @@ namespace projekakhir
             this.btupdate.Text = "UPDATE";
             this.btupdate.UseVisualStyleBackColor = true;
             // 
+            // btback
+            // 
+            this.btback.Location = new System.Drawing.Point(37, 318);
+            this.btback.Margin = new System.Windows.Forms.Padding(2);
+            this.btback.Name = "btback";
+            this.btback.Size = new System.Drawing.Size(60, 22);
+            this.btback.TabIndex = 10;
+            this.btback.Text = "BACK";
+            this.btback.UseVisualStyleBackColor = true;
+            this.btback.Click += new System.EventHandler(this.btback_Click);
+            // 
             // toko
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -208,6 +220,7 @@ namespace projekakhir
             this.Controls.Add(this.btcari);
             this.Controls.Add(this.tbcari);
             this.Controls.Add(this.dgvtoko);
+            this.Controls.Add(this.btback);
             this.Controls.Add(this.btsave);
             this.Controls.Add(this.tblamasewa);
             this.Controls.Add(this.label5);
@@ -247,5 +260,6 @@ namespace projekakhir
         private System.Windows.Forms.Button btcari;
         private System.Windows.Forms.Button btdelete;
         private System.Windows.Forms.Button btupdate;
+        private System.Windows.Forms.Button btback;
     }
 }
