@@ -43,6 +43,7 @@ namespace projekakhir
             this.btnexit = new System.Windows.Forms.Button();
             this.Stock = new System.Windows.Forms.ListView();
             this.btndasbord = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -112,7 +113,7 @@ namespace projekakhir
             // 
             // btnsave
             // 
-            this.btnsave.Location = new System.Drawing.Point(48, 194);
+            this.btnsave.Location = new System.Drawing.Point(24, 194);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(76, 29);
             this.btnsave.TabIndex = 7;
@@ -121,7 +122,7 @@ namespace projekakhir
             // 
             // btnupdate
             // 
-            this.btnupdate.Location = new System.Drawing.Point(155, 194);
+            this.btnupdate.Location = new System.Drawing.Point(115, 194);
             this.btnupdate.Name = "btnupdate";
             this.btnupdate.Size = new System.Drawing.Size(76, 29);
             this.btnupdate.TabIndex = 8;
@@ -130,7 +131,7 @@ namespace projekakhir
             // 
             // btndelete
             // 
-            this.btndelete.Location = new System.Drawing.Point(253, 194);
+            this.btndelete.Location = new System.Drawing.Point(208, 194);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(76, 29);
             this.btndelete.TabIndex = 9;
@@ -139,7 +140,7 @@ namespace projekakhir
             // 
             // btnsearch
             // 
-            this.btnsearch.Location = new System.Drawing.Point(352, 194);
+            this.btnsearch.Location = new System.Drawing.Point(300, 194);
             this.btnsearch.Name = "btnsearch";
             this.btnsearch.Size = new System.Drawing.Size(76, 29);
             this.btnsearch.TabIndex = 10;
@@ -148,7 +149,7 @@ namespace projekakhir
             // 
             // btnexit
             // 
-            this.btnexit.Location = new System.Drawing.Point(453, 194);
+            this.btnexit.Location = new System.Drawing.Point(397, 194);
             this.btnexit.Name = "btnexit";
             this.btnexit.Size = new System.Drawing.Size(76, 29);
             this.btnexit.TabIndex = 11;
@@ -160,13 +161,13 @@ namespace projekakhir
             this.Stock.HideSelection = false;
             this.Stock.Location = new System.Drawing.Point(16, 253);
             this.Stock.Name = "Stock";
-            this.Stock.Size = new System.Drawing.Size(566, 164);
+            this.Stock.Size = new System.Drawing.Size(566, 244);
             this.Stock.TabIndex = 12;
             this.Stock.UseCompatibleStateImageBehavior = false;
             // 
             // btndasbord
             // 
-            this.btndasbord.Location = new System.Drawing.Point(550, 194);
+            this.btndasbord.Location = new System.Drawing.Point(492, 194);
             this.btndasbord.Name = "btndasbord";
             this.btndasbord.Size = new System.Drawing.Size(76, 29);
             this.btndasbord.TabIndex = 13;
@@ -174,11 +175,21 @@ namespace projekakhir
             this.btndasbord.UseVisualStyleBackColor = true;
             this.btndasbord.Click += new System.EventHandler(this.btndasbord_Click);
             // 
+            // btnPrint
+            // 
+            this.btnPrint.Location = new System.Drawing.Point(550, 12);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(114, 29);
+            this.btnPrint.TabIndex = 14;
+            this.btnPrint.Text = "Print";
+            this.btnPrint.UseVisualStyleBackColor = true;
+            // 
             // stock_management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(676, 429);
+            this.ClientSize = new System.Drawing.Size(676, 509);
+            this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.btndasbord);
             this.Controls.Add(this.Stock);
             this.Controls.Add(this.btnexit);
@@ -211,5 +222,6 @@ namespace projekakhir
         private System.Windows.Forms.Button btnexit;
         private System.Windows.Forms.ListView Stock;
         private System.Windows.Forms.Button btndasbord;
+        private System.Windows.Forms.Button btnPrint;
     }
 }

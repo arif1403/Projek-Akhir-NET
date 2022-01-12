@@ -33,7 +33,6 @@ namespace projekakhir
             this.menukaryawan = new System.Windows.Forms.ToolStripMenuItem();
             this.menustok = new System.Windows.Forms.ToolStripMenuItem();
             this.menupenjualan = new System.Windows.Forms.ToolStripMenuItem();
-            this.menulaporanpenjualan = new System.Windows.Forms.ToolStripMenuItem();
             this.manajemenToko = new System.Windows.Forms.ToolStripMenuItem();
             this.keluarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -47,7 +46,6 @@ namespace projekakhir
             this.menustok,
             this.menupenjualan,
             this.manajemenToko,
-            this.menulaporanpenjualan,
             this.keluarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -76,13 +74,6 @@ namespace projekakhir
             this.menupenjualan.Size = new System.Drawing.Size(137, 22);
             this.menupenjualan.Text = "Manajemen Penjualan";
             this.menupenjualan.Click += new System.EventHandler(this.menupenjualan_Click);
-            // 
-            // menulaporanpenjualan
-            // 
-            this.menulaporanpenjualan.Name = "menulaporanpenjualan";
-            this.menulaporanpenjualan.Size = new System.Drawing.Size(65, 22);
-            this.menulaporanpenjualan.Text = "Laporan ";
-            this.menulaporanpenjualan.Click += new System.EventHandler(this.menulaporanpenjualan_Click);
             // 
             // manajemenToko
             // 
@@ -122,7 +113,6 @@ namespace projekakhir
         private System.Windows.Forms.ToolStripMenuItem menukaryawan;
         private System.Windows.Forms.ToolStripMenuItem menustok;
         private System.Windows.Forms.ToolStripMenuItem menupenjualan;
-        private System.Windows.Forms.ToolStripMenuItem menulaporanpenjualan;
         private System.Windows.Forms.ToolStripMenuItem keluarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manajemenToko;
     }

@@ -46,6 +46,7 @@ namespace projekakhir
             this.btdelete = new System.Windows.Forms.Button();
             this.btupdate = new System.Windows.Forms.Button();
             this.btback = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtoko)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,9 +137,9 @@ namespace projekakhir
             this.label5.Location = new System.Drawing.Point(34, 186);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 13);
+            this.label5.Size = new System.Drawing.Size(63, 13);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Lama sewa";
+            this.label5.Text = "Lama Sewa";
             // 
             // btsave
             // 
@@ -160,6 +161,7 @@ namespace projekakhir
             this.dgvtoko.RowTemplate.Height = 33;
             this.dgvtoko.Size = new System.Drawing.Size(464, 274);
             this.dgvtoko.TabIndex = 11;
+            this.dgvtoko.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvtoko_CellContentClick);
             // 
             // tbcari
             // 
@@ -201,7 +203,7 @@ namespace projekakhir
             // 
             // btback
             // 
-            this.btback.Location = new System.Drawing.Point(37, 318);
+            this.btback.Location = new System.Drawing.Point(559, 354);
             this.btback.Margin = new System.Windows.Forms.Padding(2);
             this.btback.Name = "btback";
             this.btback.Size = new System.Drawing.Size(60, 22);
@@ -210,11 +212,21 @@ namespace projekakhir
             this.btback.UseVisualStyleBackColor = true;
             this.btback.Click += new System.EventHandler(this.btback_Click);
             // 
+            // btnPrint
+            // 
+            this.btnPrint.Location = new System.Drawing.Point(636, 352);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(60, 24);
+            this.btnPrint.TabIndex = 16;
+            this.btnPrint.Text = "Print";
+            this.btnPrint.UseVisualStyleBackColor = true;
+            // 
             // toko
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(758, 388);
+            this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.btupdate);
             this.Controls.Add(this.btdelete);
             this.Controls.Add(this.btcari);
@@ -261,5 +273,6 @@ namespace projekakhir
         private System.Windows.Forms.Button btdelete;
         private System.Windows.Forms.Button btupdate;
         private System.Windows.Forms.Button btback;
+        private System.Windows.Forms.Button btnPrint;
     }
 }

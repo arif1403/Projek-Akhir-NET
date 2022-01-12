@@ -23,5 +23,10 @@ namespace projekakhir
             db.Show();
             this.Close();
         }
+
+        private void dgvtoko_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
