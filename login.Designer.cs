@@ -138,6 +138,7 @@ namespace projekakhir
             this.Controls.Add(this.btlogin);
             this.Controls.Add(this.tbpassword);
             this.Controls.Add(this.tbusername);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
