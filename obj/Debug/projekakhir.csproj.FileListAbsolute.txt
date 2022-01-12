@@ -46,3 +46,4 @@ C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.csproj.G
 C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
 C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.exe
 C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.pdb
+C:\Users\meira nur\Source\Repos\Projek-Akhir-NET1\obj\Debug\projekakhir.stock_management.resources

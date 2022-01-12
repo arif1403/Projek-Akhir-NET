@@ -170,8 +170,9 @@ namespace projekakhir
             this.btndasbord.Name = "btndasbord";
             this.btndasbord.Size = new System.Drawing.Size(76, 29);
             this.btndasbord.TabIndex = 13;
-            this.btndasbord.Text = "Dasboard";
+            this.btndasbord.Text = "Back";
             this.btndasbord.UseVisualStyleBackColor = true;
+            this.btndasbord.Click += new System.EventHandler(this.btndasbord_Click);
             // 
             // stock_management
             // 

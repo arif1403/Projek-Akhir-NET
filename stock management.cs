@@ -16,5 +16,12 @@ namespace projekakhir
         {
             InitializeComponent();
         }
+
+        private void btndasbord_Click(object sender, EventArgs e)
+        {
+            dasboard db = new dasboard();
+            db.Show();
+            this.Close();
+        }
     }
 }

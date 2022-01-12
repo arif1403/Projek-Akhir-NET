@@ -68,6 +68,7 @@ namespace projekakhir
             this.menustok.Name = "menustok";
             this.menustok.Size = new System.Drawing.Size(108, 22);
             this.menustok.Text = "Manajemen Stok";
+            this.menustok.Click += new System.EventHandler(this.menustok_Click);
             // 
             // menupenjualan
             // 

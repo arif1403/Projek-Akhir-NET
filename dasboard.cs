@@ -54,5 +54,12 @@ namespace projekakhir
         {
 
         }
+
+        private void menustok_Click(object sender, EventArgs e)
+        {
+            stock_management db = new stock_management();
+            db.Show();
+            this.Close();
+        }
     }
 }
