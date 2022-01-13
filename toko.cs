@@ -55,5 +55,79 @@ namespace projekakhir
         {
 
         }
+
+        private void btsave_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "insert into penyewa values = ('" + tbid.Text + "', '" + tbalamat.Text + "', '" + tbharga + "', '" + tblamasewa + "', '" + "')";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            showdata();
+            resetdata();
+            resetdata();
+
+            berhenti:
+            ;
+        }
+
+        private void btdelete_Click(object sender, EventArgs e)
+        {
+            if (tbid.Text == "")
+            {
+                MessageBox.Show("Isi id toko yang akan dihapus");
+                goto berhenti;
+            }
+            con.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "delete from Penyewa where penyewa_id = '" + tbid.Text + "'";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            showdata();
+            resetdata();
+            resetdata();
+
+        berhenti:
+            ;
+        }
+
+        private void btupdate_Click(object sender, EventArgs e)
+        {
+            if (tbid.Text == "" | tbalamat.Text == "" | tblamasewa.Text == "" | tbharga.Text == "")
+            {
+                MessageBox.Show("Semua data harus di isi", "peringatan");
+                goto berhenti;
+
+            }
+            con.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = " update customer set id";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            showdata();
+            resetdata();
+            resetdata();
+
+            berhenti:
+            ;
+        }
+
+        private void btcari_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = " select * from toko where id like '%" + tbcari.Text + "%'" ;
+            cmd.ExecuteNonQuery();
+            con.Close();
+            showdata();
+            resetdata();
+            resetdata();
+        }
     }
 }
