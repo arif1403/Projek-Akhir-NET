@@ -58,6 +58,12 @@ namespace projekakhir
 
         private void btsave_Click(object sender, EventArgs e)
         {
+            if (tbid.Text == "")
+            {
+                MessageBox.Show("Isi id toko yang akan dihapus");
+                goto berhenti;
+            }
+            con.Open();
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
@@ -68,8 +74,9 @@ namespace projekakhir
             resetdata();
             resetdata();
 
-            berhenti:
+        berhenti:
             ;
+
         }
 
         private void btdelete_Click(object sender, EventArgs e)

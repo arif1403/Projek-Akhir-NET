@@ -64,3 +64,20 @@ C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhi
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.exe
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.pdb
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.csproj.AssemblyReference.cache
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.dasboard.resources
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.Mkaryawan.resources
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.laporan.resources
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.login.resources
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.Properties.Resources.resources
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.Registrasi.resources
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.mPenjualan.resources
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.stock_management.resources
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.toko.resources
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.csproj.GenerateResource.cache
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.exe
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.pdb
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\bin\Debug\projekakhir.exe.config
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\bin\Debug\projekakhir.exe
+C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\bin\Debug\projekakhir.pdb

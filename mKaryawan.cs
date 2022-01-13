@@ -54,7 +54,7 @@ namespace projekakhir
 
         private void bttambah_Click(object sender, EventArgs e)
         {
-            if (tbid.Text == "" | tbnama.Text == "" | tbgaji.Text == "" | tbalamat.Text == "" | tbnmrtlp.Text == "" | tbpekerjaan.Text == "" | gbJK.Text == "")
+            if (tbid.Text == "" | tbnama.Text == "" | tbgaji.Text == "" | tbalamat.Text == "" | tbnmrtlp.Text == "" | tbpekerjaan.Text == "" )
             //gunakan OR untuk argumen membandingkan
             {
                 MessageBox.Show("Semua data harus diisi", "Peringatan");
