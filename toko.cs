@@ -106,7 +106,7 @@ namespace projekakhir
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = " update customer set id";
+            cmd.CommandText = " update store set stored_id ='" + tbid.Text + "', harga ="+ tbharga + "%'" ;
             cmd.ExecuteNonQuery();
             con.Close();
             showdata();
@@ -122,7 +122,7 @@ namespace projekakhir
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = " select * from toko where id like '%" + tbcari.Text + "%'" ;
+            cmd.CommandText = " select * from toko where store_id like '%" + tbcari.Text + "%'" ;
             cmd.ExecuteNonQuery();
             con.Close();
             showdata();
