@@ -26,19 +26,21 @@ namespace projekakhir
             tbgaji.Text = "";
             tbalamat.Text = "";
             tbnmrtlp.Text = "";
-            tbpekerjaan.Text = "";
+            cbJk.Text = "";
         }
         private void showdata()
         {
             SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "select * from Karyawan";
             DataSet ds = new DataSet();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(ds);
+            da.Fill(ds,"Karyawan");
             dgvkaryawan.DataSource = ds;
             dgvkaryawan.DataMember = "Karyawan";
             dgvkaryawan.ReadOnly = true;
+           
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -49,12 +51,13 @@ namespace projekakhir
 
         private void Mkaryawan_Load(object sender, EventArgs e)
         {
-
+            resetdata();
+            showdata();
         }
 
         private void bttambah_Click(object sender, EventArgs e)
         {
-            if (tbid.Text == "" | tbnama.Text == "" | tbgaji.Text == "" | tbalamat.Text == "" | tbnmrtlp.Text == "" | tbpekerjaan.Text == "" )
+            if (tbid.Text == "" | tbnama.Text == "" | tbgaji.Text == ""| cbJk.Text =="" | tbalamat.Text == "" | tbnmrtlp.Text == "" )
             //gunakan OR untuk argumen membandingkan
             {
                 MessageBox.Show("Semua data harus diisi", "Peringatan");
@@ -76,21 +79,15 @@ namespace projekakhir
             }
 
             con.Open();
-            //membuka koneksi
-
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into Karyawan values('" + tbid.Text + "','" + tbnama.Text + "','" + int.Parse(tbgaji.Text) +
-                "','" + tbalamat.Text + "','" + tbnmrtlp.Text + "','" + tbpekerjaan.Text + "')";
+            cmd.CommandText = "insert into Karyawan values ('" + tbid.Text + "','" + tbnama.Text + "','" + cbJk.Text + "','" +
+                tbalamat.Text + "','" + int.Parse(tbnmrtlp.Text) + "','" + int.Parse(tbgaji.Text) + "')";
             cmd.ExecuteNonQuery();
-            //mengisi perintah SQL dengan Insert data ke dalam table customer
-            //cmd.ExecuteNonQuery();
-            //execute ( jalankan perintah )
             con.Close();
             showdata();
             resetdata();
-        //panggil procedur untuk refresh data
 
         berhenti:
             ;
@@ -98,63 +95,46 @@ namespace projekakhir
 
         private void btupdate_Click(object sender, EventArgs e)
         {
-            try
-            {
-                if (tbid.Text == "" | tbnama.Text == "" | tbgaji.Text == "" | tbalamat.Text == "")
-                {
-                    MessageBox.Show("Missing Information");
-                }
-                else
-                {
-                    con.Open();
-                    SqlCommand cmd = new SqlCommand();
-                    cmd.Connection = con;
-                    cmd.CommandType = CommandType.Text;
-                    cmd.CommandText = "update Karyawan set nama_karyawan = '" + tbnama.Text + "', jk_karyawan='" + tbpekerjaan.Text + "', alamat_karyawan='" +
-                        tbalamat.Text + "', telp_karyawan = " + tbnmrtlp.Text + "', gaji='" + int.Parse(tbgaji.Text) + " where id_karyawan='" + tbid.Text + "'";
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Karyawan Updated Successfully");
-                    con.Close();
-                    showdata();
-                    resetdata();
 
-                }
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+          if (tbid.Text == "" | tbnama.Text == "" | tbgaji.Text == "" | tbalamat.Text == "" | tbnmrtlp.Text == "" )
+             {
+                 MessageBox.Show("Missing Information");
+                 goto berhenti;
+             }
+                 con.Open();
+                 SqlCommand cmd = new SqlCommand();
+                 cmd.Connection = con;
+                 cmd.CommandType = CommandType.Text;
+                 cmd.CommandText = "update Karyawan set nama_karyawan = '" + tbnama.Text + "', jk_karyawan='" + cbJk.SelectedItem + "', alamat_karyawan='" +
+                        tbalamat.Text + "', telp_karyawan = '" + int.Parse(tbnmrtlp.Text) + "', gaji='" + int.Parse(tbgaji.Text) + "' where id_karyawan='" + tbid.Text + "'";
+                 cmd.ExecuteNonQuery();
+                 MessageBox.Show("Karyawan Updated Successfully");
+                 con.Close();
+                 showdata();
+                 resetdata();
+                berhenti:;
+          
         }
 
         private void bthapus_Click(object sender, EventArgs e)
         {
-            try
+            if (tbid.Text == "")
             {
-                if (tbid.Text == "")
-                {
-                    MessageBox.Show("Select The Category to Delete");
-                }
-                else
-                {
-                    con.Open();
-                    SqlCommand cmd = new SqlCommand();
-                    cmd.Connection = con;
-                    cmd.CommandType = CommandType.Text;
-                    cmd.CommandText = "delete from Karyawan where CatId=" + tbid.Text + "";
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Karyawan Deleted Successfully");
-                    con.Close();
-                    showdata();
-                    resetdata();
-                }
-
+                 MessageBox.Show("Pilih Id untuk Delete","Warning!");
+                 goto berhenti;
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-    
+            int telp = Convert.ToInt32(tbnmrtlp.Text);
+                con.Open();
+                 SqlCommand cmd = new SqlCommand();
+                 cmd.Connection = con;
+                 cmd.CommandType = CommandType.Text;
+                 cmd.CommandText = "delete from Karyawan where id_karyawan='" + tbid.Text + "'";
+                 cmd.ExecuteNonQuery();
+                 MessageBox.Show("Karyawan Deleted Successfully");
+                 con.Close();
+                 showdata();
+                 resetdata();
+              berhenti:;
+         }
     }
 }

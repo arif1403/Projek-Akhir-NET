@@ -81,3 +81,22 @@ C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\obj\Debug\projekakhir.pdb
 C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\bin\Debug\projekakhir.exe.config
 C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\bin\Debug\projekakhir.exe
 C:\Users\Darul Ghuroba\Source\Repos\Projek-Akhir-NET3\bin\Debug\projekakhir.pdb
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\bin\Debug\projekakhir.exe.config
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\bin\Debug\projekakhir.exe
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\bin\Debug\projekakhir.pdb
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.csproj.AssemblyReference.cache
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.csproj.SuggestedBindingRedirects.cache
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.dasboard.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.Mkaryawan.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.laporan.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.login.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.Properties.Resources.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.Registrasi.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.mPenjualan.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.stock_management.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.toko.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.csproj.GenerateResource.cache
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.exe
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.pdb
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.Transaksi.resources
