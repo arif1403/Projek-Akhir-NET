@@ -63,6 +63,7 @@ namespace projekakhir
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(27, 21);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
@@ -73,6 +74,7 @@ namespace projekakhir
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(27, 51);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
@@ -83,6 +85,7 @@ namespace projekakhir
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(27, 83);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
@@ -93,6 +96,7 @@ namespace projekakhir
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(327, 20);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
@@ -103,6 +107,7 @@ namespace projekakhir
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(327, 51);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
@@ -197,6 +202,7 @@ namespace projekakhir
             // 
             // toolStrip1
             // 
+            this.toolStrip1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSeparator1,
@@ -218,6 +224,7 @@ namespace projekakhir
             // 
             // toolStripLabel1
             // 
+            this.toolStripLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(39, 36);
             this.toolStripLabel1.Text = "CARI :";
@@ -229,7 +236,6 @@ namespace projekakhir
             // 
             // tbcari
             // 
-            this.tbcari.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbcari.Name = "tbcari";
             this.tbcari.Size = new System.Drawing.Size(152, 39);
             // 
@@ -264,6 +270,7 @@ namespace projekakhir
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(327, 83);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(71, 13);
@@ -283,7 +290,7 @@ namespace projekakhir
             // 
             // gbKelola
             // 
-            this.gbKelola.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.gbKelola.BackColor = System.Drawing.Color.DodgerBlue;
             this.gbKelola.Controls.Add(this.cbJk);
             this.gbKelola.Controls.Add(this.label7);
             this.gbKelola.Controls.Add(this.tbnmrtlp);
@@ -308,6 +315,7 @@ namespace projekakhir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(642, 513);
             this.Controls.Add(this.gbKelola);
             this.Controls.Add(this.btnPrint);
@@ -317,6 +325,7 @@ namespace projekakhir
             this.Controls.Add(this.btupdate);
             this.Controls.Add(this.bttambah);
             this.Controls.Add(this.dgvkaryawan);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Mkaryawan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

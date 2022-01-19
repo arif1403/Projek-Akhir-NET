@@ -40,7 +40,7 @@ namespace projekakhir
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menukaryawan,
@@ -50,54 +50,56 @@ namespace projekakhir
             this.keluarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1182, 40);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(591, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // menukaryawan
             // 
             this.menukaryawan.Name = "menukaryawan";
-            this.menukaryawan.Size = new System.Drawing.Size(270, 36);
+            this.menukaryawan.Size = new System.Drawing.Size(136, 22);
             this.menukaryawan.Text = "Manajemen Karyawan";
             this.menukaryawan.Click += new System.EventHandler(this.menukaryawan_Click);
             // 
             // menustok
             // 
             this.menustok.Name = "menustok";
-            this.menustok.Size = new System.Drawing.Size(215, 36);
+            this.menustok.Size = new System.Drawing.Size(108, 22);
             this.menustok.Text = "Manajemen Stok";
             this.menustok.Click += new System.EventHandler(this.menustok_Click);
             // 
             // menupenjualan
             // 
             this.menupenjualan.Name = "menupenjualan";
-            this.menupenjualan.Size = new System.Drawing.Size(272, 36);
+            this.menupenjualan.Size = new System.Drawing.Size(137, 22);
             this.menupenjualan.Text = "Manajemen Penjualan";
             this.menupenjualan.Click += new System.EventHandler(this.menupenjualan_Click);
             // 
             // manajemenToko
             // 
             this.manajemenToko.Name = "manajemenToko";
-            this.manajemenToko.Size = new System.Drawing.Size(217, 36);
+            this.manajemenToko.Size = new System.Drawing.Size(109, 22);
             this.manajemenToko.Text = "Manajemen toko";
             this.manajemenToko.Click += new System.EventHandler(this.manajemenToko_Click);
             // 
             // keluarToolStripMenuItem
             // 
             this.keluarToolStripMenuItem.Name = "keluarToolStripMenuItem";
-            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(102, 36);
+            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(52, 22);
             this.keluarToolStripMenuItem.Text = "Keluar";
             this.keluarToolStripMenuItem.Click += new System.EventHandler(this.keluarToolStripMenuItem_Click);
             // 
             // dasboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 652);
+            this.BackColor = System.Drawing.Color.Blue;
+            this.ClientSize = new System.Drawing.Size(591, 339);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "dasboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dasboard";
