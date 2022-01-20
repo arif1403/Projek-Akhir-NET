@@ -100,3 +100,4 @@ C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.exe
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.pdb
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.Transaksi.resources
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.penyewa.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.splashscreen.resources

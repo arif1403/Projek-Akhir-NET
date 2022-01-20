@@ -48,8 +48,8 @@ namespace projekakhir
             this.btback = new System.Windows.Forms.Button();
             this.btnPrint = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
             this.tbnama = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtoko)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -169,7 +169,7 @@ namespace projekakhir
             // dgvtoko
             // 
             this.dgvtoko.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvtoko.Location = new System.Drawing.Point(255, 66);
+            this.dgvtoko.Location = new System.Drawing.Point(260, 66);
             this.dgvtoko.Margin = new System.Windows.Forms.Padding(2);
             this.dgvtoko.Name = "dgvtoko";
             this.dgvtoko.RowHeadersWidth = 82;
@@ -262,6 +262,14 @@ namespace projekakhir
             this.panel1.Size = new System.Drawing.Size(254, 388);
             this.panel1.TabIndex = 17;
             // 
+            // tbnama
+            // 
+            this.tbnama.Location = new System.Drawing.Point(120, 96);
+            this.tbnama.Margin = new System.Windows.Forms.Padding(2);
+            this.tbnama.Name = "tbnama";
+            this.tbnama.Size = new System.Drawing.Size(116, 20);
+            this.tbnama.TabIndex = 4;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -272,14 +280,6 @@ namespace projekakhir
             this.label6.Size = new System.Drawing.Size(82, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "Nama Penyewa";
-            // 
-            // tbnama
-            // 
-            this.tbnama.Location = new System.Drawing.Point(120, 96);
-            this.tbnama.Margin = new System.Windows.Forms.Padding(2);
-            this.tbnama.Name = "tbnama";
-            this.tbnama.Size = new System.Drawing.Size(116, 20);
-            this.tbnama.TabIndex = 4;
             // 
             // penyewa
             // 

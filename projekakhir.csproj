@@ -84,6 +84,12 @@
     <Compile Include="mPenjualan.Designer.cs">
       <DependentUpon>mPenjualan.cs</DependentUpon>
     </Compile>
+    <Compile Include="splashscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splashscreen.Designer.cs">
+      <DependentUpon>splashscreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="stock management.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mPenjualan.resx">
       <DependentUpon>mPenjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splashscreen.resx">
+      <DependentUpon>splashscreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="stock management.resx">
       <DependentUpon>stock management.cs</DependentUpon>
