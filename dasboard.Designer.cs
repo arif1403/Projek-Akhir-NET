@@ -33,17 +33,17 @@ namespace projekakhir
             this.menukaryawan = new System.Windows.Forms.ToolStripMenuItem();
             this.menustok = new System.Windows.Forms.ToolStripMenuItem();
             this.menupenjualan = new System.Windows.Forms.ToolStripMenuItem();
+            this.transaksiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.penjualanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manajemenToko = new System.Windows.Forms.ToolStripMenuItem();
             this.keluarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.transaksiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.penjualanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.menuStrip1.BackColor = System.Drawing.Color.Blue;
             this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -89,6 +89,20 @@ namespace projekakhir
             this.menupenjualan.Text = "Manajemen Penjualan";
             this.menupenjualan.Click += new System.EventHandler(this.menupenjualan_Click);
             // 
+            // transaksiToolStripMenuItem
+            // 
+            this.transaksiToolStripMenuItem.Name = "transaksiToolStripMenuItem";
+            this.transaksiToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.transaksiToolStripMenuItem.Text = "Transaksi";
+            this.transaksiToolStripMenuItem.Click += new System.EventHandler(this.transaksiToolStripMenuItem_Click);
+            // 
+            // penjualanToolStripMenuItem
+            // 
+            this.penjualanToolStripMenuItem.Name = "penjualanToolStripMenuItem";
+            this.penjualanToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.penjualanToolStripMenuItem.Text = "Penjualan";
+            this.penjualanToolStripMenuItem.Click += new System.EventHandler(this.penjualanToolStripMenuItem_Click);
+            // 
             // manajemenToko
             // 
             this.manajemenToko.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -105,13 +119,6 @@ namespace projekakhir
             this.keluarToolStripMenuItem.Text = "Keluar";
             this.keluarToolStripMenuItem.Click += new System.EventHandler(this.keluarToolStripMenuItem_Click);
             // 
-            // transaksiToolStripMenuItem
-            // 
-            this.transaksiToolStripMenuItem.Name = "transaksiToolStripMenuItem";
-            this.transaksiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.transaksiToolStripMenuItem.Text = "Transaksi";
-            this.transaksiToolStripMenuItem.Click += new System.EventHandler(this.transaksiToolStripMenuItem_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -123,18 +130,11 @@ namespace projekakhir
             this.label1.TabIndex = 1;
             this.label1.Text = "WELCOME";
             // 
-            // penjualanToolStripMenuItem
-            // 
-            this.penjualanToolStripMenuItem.Name = "penjualanToolStripMenuItem";
-            this.penjualanToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.penjualanToolStripMenuItem.Text = "Penjualan";
-            this.penjualanToolStripMenuItem.Click += new System.EventHandler(this.penjualanToolStripMenuItem_Click);
-            // 
             // dasboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Blue;
+            this.BackColor = System.Drawing.Color.Navy;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(750, 392);
             this.Controls.Add(this.label1);

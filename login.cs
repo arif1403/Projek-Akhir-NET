@@ -63,13 +63,6 @@ namespace projekakhir
             tbpassword.Text = "";
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-            Registrasi reg = new Registrasi();
-            reg.Show();
-            this.Hide();
-        }
-
         private void btlogin_Click(object sender, EventArgs e)
         {
             if (tbusername.Text == "" | tbpassword.Text == "")
@@ -109,6 +102,12 @@ namespace projekakhir
         private void login_Load(object sender, EventArgs e)
         {
 
+        }
+        private void btnReg_Click(object sender, EventArgs e)
+        {
+            Registrasi reg = new Registrasi();
+            reg.Show();
+            this.Hide();
         }
     }
 }

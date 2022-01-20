@@ -29,142 +29,31 @@ namespace projekakhir
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cbtipe = new System.Windows.Forms.ComboBox();
-            this.tbid = new System.Windows.Forms.TextBox();
-            this.tbalamat = new System.Windows.Forms.TextBox();
-            this.tbharga = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.tblamasewa = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btsave = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(penyewa));
             this.dgvtoko = new System.Windows.Forms.DataGridView();
             this.tbcari = new System.Windows.Forms.TextBox();
             this.btcari = new System.Windows.Forms.Button();
-            this.btdelete = new System.Windows.Forms.Button();
-            this.btupdate = new System.Windows.Forms.Button();
             this.btback = new System.Windows.Forms.Button();
             this.btnPrint = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.tbnama = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cbtipe = new System.Windows.Forms.ComboBox();
+            this.tbid = new System.Windows.Forms.TextBox();
+            this.tbnama = new System.Windows.Forms.TextBox();
+            this.tbalamat = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tbharga = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tblamasewa = new System.Windows.Forms.TextBox();
+            this.btsave = new System.Windows.Forms.Button();
+            this.btdelete = new System.Windows.Forms.Button();
+            this.btupdate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtoko)).BeginInit();
-            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(34, 69);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Id Penyewa";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(34, 132);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Tipe";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(34, 166);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Alamat";
-            // 
-            // cbtipe
-            // 
-            this.cbtipe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbtipe.FormattingEnabled = true;
-            this.cbtipe.Items.AddRange(new object[] {
-            "Elektronik",
-            "Sembako",
-            "Furniture"});
-            this.cbtipe.Location = new System.Drawing.Point(120, 129);
-            this.cbtipe.Margin = new System.Windows.Forms.Padding(2);
-            this.cbtipe.Name = "cbtipe";
-            this.cbtipe.Size = new System.Drawing.Size(116, 21);
-            this.cbtipe.TabIndex = 3;
-            // 
-            // tbid
-            // 
-            this.tbid.Location = new System.Drawing.Point(120, 66);
-            this.tbid.Margin = new System.Windows.Forms.Padding(2);
-            this.tbid.Name = "tbid";
-            this.tbid.Size = new System.Drawing.Size(60, 20);
-            this.tbid.TabIndex = 4;
-            // 
-            // tbalamat
-            // 
-            this.tbalamat.Location = new System.Drawing.Point(120, 163);
-            this.tbalamat.Margin = new System.Windows.Forms.Padding(2);
-            this.tbalamat.Name = "tbalamat";
-            this.tbalamat.Size = new System.Drawing.Size(116, 20);
-            this.tbalamat.TabIndex = 5;
-            // 
-            // tbharga
-            // 
-            this.tbharga.Location = new System.Drawing.Point(120, 195);
-            this.tbharga.Margin = new System.Windows.Forms.Padding(2);
-            this.tbharga.Name = "tbharga";
-            this.tbharga.Size = new System.Drawing.Size(116, 20);
-            this.tbharga.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(34, 198);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Harga Sewa";
-            // 
-            // tblamasewa
-            // 
-            this.tblamasewa.Location = new System.Drawing.Point(120, 227);
-            this.tblamasewa.Margin = new System.Windows.Forms.Padding(2);
-            this.tblamasewa.Name = "tblamasewa";
-            this.tblamasewa.Size = new System.Drawing.Size(116, 20);
-            this.tblamasewa.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(34, 230);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Lama Sewa";
-            // 
-            // btsave
-            // 
-            this.btsave.Location = new System.Drawing.Point(35, 261);
-            this.btsave.Margin = new System.Windows.Forms.Padding(2);
-            this.btsave.Name = "btsave";
-            this.btsave.Size = new System.Drawing.Size(60, 22);
-            this.btsave.TabIndex = 10;
-            this.btsave.Text = "SAVE";
-            this.btsave.UseVisualStyleBackColor = true;
-            this.btsave.Click += new System.EventHandler(this.btsave_Click);
             // 
             // dgvtoko
             // 
@@ -197,28 +86,6 @@ namespace projekakhir
             this.btcari.UseVisualStyleBackColor = true;
             this.btcari.Click += new System.EventHandler(this.btcari_Click);
             // 
-            // btdelete
-            // 
-            this.btdelete.Location = new System.Drawing.Point(107, 261);
-            this.btdelete.Margin = new System.Windows.Forms.Padding(2);
-            this.btdelete.Name = "btdelete";
-            this.btdelete.Size = new System.Drawing.Size(60, 22);
-            this.btdelete.TabIndex = 14;
-            this.btdelete.Text = "DELETE";
-            this.btdelete.UseVisualStyleBackColor = true;
-            this.btdelete.Click += new System.EventHandler(this.btdelete_Click);
-            // 
-            // btupdate
-            // 
-            this.btupdate.Location = new System.Drawing.Point(172, 261);
-            this.btupdate.Margin = new System.Windows.Forms.Padding(2);
-            this.btupdate.Name = "btupdate";
-            this.btupdate.Size = new System.Drawing.Size(60, 22);
-            this.btupdate.TabIndex = 15;
-            this.btupdate.Text = "UPDATE";
-            this.btupdate.UseVisualStyleBackColor = true;
-            this.btupdate.Click += new System.EventHandler(this.btupdate_Click);
-            // 
             // btback
             // 
             this.btback.Location = new System.Drawing.Point(559, 354);
@@ -239,60 +106,201 @@ namespace projekakhir
             this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // pictureBox1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Blue;
-            this.panel1.Controls.Add(this.btupdate);
-            this.panel1.Controls.Add(this.btdelete);
-            this.panel1.Controls.Add(this.btsave);
-            this.panel1.Controls.Add(this.tblamasewa);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.tbharga);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.tbalamat);
-            this.panel1.Controls.Add(this.tbnama);
-            this.panel1.Controls.Add(this.tbid);
-            this.panel1.Controls.Add(this.cbtipe);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(1, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(254, 388);
-            this.panel1.TabIndex = 17;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(89, 27);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
-            // tbnama
+            // label1
             // 
-            this.tbnama.Location = new System.Drawing.Point(120, 96);
-            this.tbnama.Margin = new System.Windows.Forms.Padding(2);
-            this.tbnama.Name = "tbnama";
-            this.tbnama.Size = new System.Drawing.Size(116, 20);
-            this.tbnama.TabIndex = 4;
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(38, 97);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Id Penyewa";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(38, 160);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Tipe";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(34, 99);
+            this.label6.Location = new System.Drawing.Point(38, 127);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "Nama Penyewa";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(38, 194);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(39, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Alamat";
+            // 
+            // cbtipe
+            // 
+            this.cbtipe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbtipe.FormattingEnabled = true;
+            this.cbtipe.Items.AddRange(new object[] {
+            "Elektronik",
+            "Sembako",
+            "Furniture"});
+            this.cbtipe.Location = new System.Drawing.Point(124, 157);
+            this.cbtipe.Margin = new System.Windows.Forms.Padding(2);
+            this.cbtipe.Name = "cbtipe";
+            this.cbtipe.Size = new System.Drawing.Size(116, 21);
+            this.cbtipe.TabIndex = 3;
+            // 
+            // tbid
+            // 
+            this.tbid.BackColor = System.Drawing.Color.Navy;
+            this.tbid.Location = new System.Drawing.Point(124, 94);
+            this.tbid.Margin = new System.Windows.Forms.Padding(2);
+            this.tbid.Name = "tbid";
+            this.tbid.Size = new System.Drawing.Size(60, 20);
+            this.tbid.TabIndex = 4;
+            // 
+            // tbnama
+            // 
+            this.tbnama.BackColor = System.Drawing.Color.Navy;
+            this.tbnama.Location = new System.Drawing.Point(124, 124);
+            this.tbnama.Margin = new System.Windows.Forms.Padding(2);
+            this.tbnama.Name = "tbnama";
+            this.tbnama.Size = new System.Drawing.Size(116, 20);
+            this.tbnama.TabIndex = 4;
+            // 
+            // tbalamat
+            // 
+            this.tbalamat.BackColor = System.Drawing.Color.Navy;
+            this.tbalamat.Location = new System.Drawing.Point(124, 191);
+            this.tbalamat.Margin = new System.Windows.Forms.Padding(2);
+            this.tbalamat.Name = "tbalamat";
+            this.tbalamat.Size = new System.Drawing.Size(116, 20);
+            this.tbalamat.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(38, 226);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Harga Sewa";
+            // 
+            // tbharga
+            // 
+            this.tbharga.BackColor = System.Drawing.Color.Navy;
+            this.tbharga.Location = new System.Drawing.Point(124, 223);
+            this.tbharga.Margin = new System.Windows.Forms.Padding(2);
+            this.tbharga.Name = "tbharga";
+            this.tbharga.Size = new System.Drawing.Size(116, 20);
+            this.tbharga.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(38, 258);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(63, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Lama Sewa";
+            // 
+            // tblamasewa
+            // 
+            this.tblamasewa.BackColor = System.Drawing.Color.Navy;
+            this.tblamasewa.Location = new System.Drawing.Point(124, 255);
+            this.tblamasewa.Margin = new System.Windows.Forms.Padding(2);
+            this.tblamasewa.Name = "tblamasewa";
+            this.tblamasewa.Size = new System.Drawing.Size(116, 20);
+            this.tblamasewa.TabIndex = 9;
+            // 
+            // btsave
+            // 
+            this.btsave.Location = new System.Drawing.Point(39, 289);
+            this.btsave.Margin = new System.Windows.Forms.Padding(2);
+            this.btsave.Name = "btsave";
+            this.btsave.Size = new System.Drawing.Size(60, 22);
+            this.btsave.TabIndex = 10;
+            this.btsave.Text = "SAVE";
+            this.btsave.UseVisualStyleBackColor = true;
+            this.btsave.Click += new System.EventHandler(this.btsave_Click);
+            // 
+            // btdelete
+            // 
+            this.btdelete.Location = new System.Drawing.Point(111, 289);
+            this.btdelete.Margin = new System.Windows.Forms.Padding(2);
+            this.btdelete.Name = "btdelete";
+            this.btdelete.Size = new System.Drawing.Size(60, 22);
+            this.btdelete.TabIndex = 14;
+            this.btdelete.Text = "DELETE";
+            this.btdelete.UseVisualStyleBackColor = true;
+            this.btdelete.Click += new System.EventHandler(this.btdelete_Click);
+            // 
+            // btupdate
+            // 
+            this.btupdate.Location = new System.Drawing.Point(176, 289);
+            this.btupdate.Margin = new System.Windows.Forms.Padding(2);
+            this.btupdate.Name = "btupdate";
+            this.btupdate.Size = new System.Drawing.Size(60, 22);
+            this.btupdate.TabIndex = 15;
+            this.btupdate.Text = "UPDATE";
+            this.btupdate.UseVisualStyleBackColor = true;
+            this.btupdate.Click += new System.EventHandler(this.btupdate_Click);
+            // 
             // penyewa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(750, 388);
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.Color.Navy;
+            this.ClientSize = new System.Drawing.Size(760, 403);
+            this.Controls.Add(this.btupdate);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btdelete);
+            this.Controls.Add(this.btsave);
             this.Controls.Add(this.btnPrint);
+            this.Controls.Add(this.tblamasewa);
             this.Controls.Add(this.btcari);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.tbcari);
+            this.Controls.Add(this.tbharga);
             this.Controls.Add(this.dgvtoko);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btback);
+            this.Controls.Add(this.tbalamat);
+            this.Controls.Add(this.tbnama);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.tbid);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cbtipe);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "penyewa";
@@ -300,35 +308,33 @@ namespace projekakhir
             this.Text = "toko";
             this.Load += new System.EventHandler(this.toko_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvtoko)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cbtipe;
-        private System.Windows.Forms.TextBox tbid;
-        private System.Windows.Forms.TextBox tbalamat;
-        private System.Windows.Forms.TextBox tbharga;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox tblamasewa;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btsave;
         private System.Windows.Forms.DataGridView dgvtoko;
         private System.Windows.Forms.TextBox tbcari;
         private System.Windows.Forms.Button btcari;
-        private System.Windows.Forms.Button btdelete;
-        private System.Windows.Forms.Button btupdate;
         private System.Windows.Forms.Button btback;
         private System.Windows.Forms.Button btnPrint;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox tbnama;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cbtipe;
+        private System.Windows.Forms.TextBox tbid;
+        private System.Windows.Forms.TextBox tbnama;
+        private System.Windows.Forms.TextBox tbalamat;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tbharga;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox tblamasewa;
+        private System.Windows.Forms.Button btsave;
+        private System.Windows.Forms.Button btdelete;
+        private System.Windows.Forms.Button btupdate;
     }
 }
