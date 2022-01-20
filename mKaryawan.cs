@@ -53,6 +53,7 @@ namespace projekakhir
         {
             resetdata();
             showdata();
+            cbJk.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void bttambah_Click(object sender, EventArgs e)
@@ -83,7 +84,7 @@ namespace projekakhir
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "insert into Karyawan values ('" + tbid.Text + "','" + tbnama.Text + "','" + cbJk.Text + "','" +
-                tbalamat.Text + "','" + int.Parse(tbnmrtlp.Text) + "','" + int.Parse(tbgaji.Text) + "')";
+                                tbalamat.Text + "','" + int.Parse(tbnmrtlp.Text) + "','" + int.Parse(tbgaji.Text) + "')";
             cmd.ExecuteNonQuery();
             con.Close();
             showdata();
@@ -136,5 +137,65 @@ namespace projekakhir
                  resetdata();
               berhenti:;
          }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbJk_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbnama_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbid_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbgaji_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbalamat_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbnmrtlp_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -94,9 +94,9 @@ C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.Prope
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.Registrasi.resources
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.mPenjualan.resources
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.stock_management.resources
-C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.toko.resources
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.csproj.GenerateResource.cache
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.exe
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.pdb
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.Transaksi.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_19012022\obj\Debug\projekakhir.penyewa.resources

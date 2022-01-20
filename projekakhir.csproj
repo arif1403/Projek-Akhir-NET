@@ -90,11 +90,11 @@
     <Compile Include="stock management.Designer.cs">
       <DependentUpon>stock management.cs</DependentUpon>
     </Compile>
-    <Compile Include="toko.cs">
+    <Compile Include="penyewa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="toko.Designer.cs">
-      <DependentUpon>toko.cs</DependentUpon>
+    <Compile Include="penyewa.Designer.cs">
+      <DependentUpon>penyewa.cs</DependentUpon>
     </Compile>
     <Compile Include="Transaksi.cs">
       <SubType>Form</SubType>
@@ -132,8 +132,8 @@
     <EmbeddedResource Include="stock management.resx">
       <DependentUpon>stock management.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="toko.resx">
-      <DependentUpon>toko.cs</DependentUpon>
+    <EmbeddedResource Include="penyewa.resx">
+      <DependentUpon>penyewa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transaksi.resx">
       <DependentUpon>Transaksi.cs</DependentUpon>

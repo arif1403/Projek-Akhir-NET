@@ -37,7 +37,7 @@ namespace projekakhir
             tbnamakaryawan.Text = "";
             tbnamabarang.Text = "";
             tbidbarang.Text = "";
-            int.Parse(tbharga.Text);
+            tbharga.Text="";
             tbharga.Text = "";
             tbkuantiti.Text = "";
             tbnomortelp.Text = "";
@@ -51,7 +51,8 @@ namespace projekakhir
 
         private void mPenjualan_Load(object sender, EventArgs e)
         {
-
+            showdata();
+            resetdata();
         }
     }
 }

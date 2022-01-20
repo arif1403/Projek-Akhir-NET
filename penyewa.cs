@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace projekakhir
 {
-    public partial class toko : Form
+    public partial class penyewa : Form
     {
-        public toko()
+        public penyewa()
         {
             InitializeComponent();
         }
@@ -37,7 +37,10 @@ namespace projekakhir
             tbid.Text = "";
             tbalamat.Text = "";
             tbharga.Text = "";
+            tblamasewa.Text = "";
             tbalamat.Text = "";
+            tbnama.Text = "";
+            cbtipe.Text = "";
         }
         private void btback_Click(object sender, EventArgs e)
         {
@@ -53,12 +56,13 @@ namespace projekakhir
 
         private void toko_Load(object sender, EventArgs e)
         {
-
+            showdata();
+            resetdata();
         }
 
         private void btsave_Click(object sender, EventArgs e)
         {
-            if (tbid.Text == "")
+            if (tbid.Text == ""|tbnama.Text==""|tbharga.Text==""|tbharga.Text==""|tblamasewa.Text==""|cbtipe.Text=="")
             {
                 MessageBox.Show("Isi id toko yang akan dihapus");
                 goto berhenti;
@@ -67,7 +71,8 @@ namespace projekakhir
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into penyewa values = ('" + tbid.Text + "', '" + tbalamat.Text + "', '" + tbharga + "', '" + tblamasewa + "', '" + "')";
+            cmd.CommandText = "insert into Penyewa values ('" + tbid.Text + "','"+tbnama.Text+"', '" + tbalamat.Text + "', '" + 
+                                cbtipe.Text +"','"+ int.Parse(tbharga.Text) + "', '" + int.Parse(tblamasewa.Text) + "')";
             cmd.ExecuteNonQuery();
             con.Close();
             showdata();
@@ -103,7 +108,7 @@ namespace projekakhir
 
         private void btupdate_Click(object sender, EventArgs e)
         {
-            if (tbid.Text == "" | tbalamat.Text == "" | tblamasewa.Text == "" | tbharga.Text == "")
+            if (tbid.Text == "" | tbalamat.Text == "" | tblamasewa.Text == "" | tbharga.Text == ""|cbtipe.Text=="")
             {
                 MessageBox.Show("Semua data harus di isi", "peringatan");
                 goto berhenti;
@@ -113,8 +118,11 @@ namespace projekakhir
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = " update store set stored_id ='" + tbid.Text + "', harga ="+ tbharga + "%'" ;
+            cmd.CommandText = "update Penyewa set penyewa_name = '" + tbnama.Text + "', alamat_penyewa='" + tbalamat.Text + "', penyewa_type='" +
+                        cbtipe.Text + "', harga_sewa = '" + int.Parse(tbharga.Text) + "', lama_sewa='" + int.Parse(tblamasewa.Text) + 
+                        "' where penyewa_id='" + tbid.Text + "'";
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Update data Penyewa Successfully");
             con.Close();
             showdata();
             resetdata();
@@ -129,12 +137,13 @@ namespace projekakhir
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = " select * from toko where store_id like '%" + tbcari.Text + "%'" ;
-            cmd.ExecuteNonQuery();
-            con.Close();
-            showdata();
-            resetdata();
-            resetdata();
+            cmd.CommandText = " select * from Penyewa where penyewa_id like '%" + tbcari.Text + "%'";
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(ds, "Penyewa");
+            dgvtoko.DataSource = ds;
+            dgvtoko.DataMember = "Penyewa";
+            dgvtoko.ReadOnly = true;
         }
     }
 }

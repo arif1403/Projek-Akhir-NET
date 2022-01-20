@@ -81,7 +81,7 @@ namespace projekakhir
             this.tbharga.Location = new System.Drawing.Point(342, 104);
             this.tbharga.Margin = new System.Windows.Forms.Padding(2);
             this.tbharga.Name = "tbharga";
-            this.tbharga.Size = new System.Drawing.Size(92, 20);
+            this.tbharga.Size = new System.Drawing.Size(113, 20);
             this.tbharga.TabIndex = 2;
             // 
             // dgvtransaksi

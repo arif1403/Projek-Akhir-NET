@@ -28,18 +28,20 @@ namespace projekakhir
         {
             laporan form_laporan = new laporan();
             form_laporan.Show();
+            this.Close();
         }
 
         private void manajemenToko_Click(object sender, EventArgs e)
         {
-            toko form_toko = new toko();
+            penyewa form_toko = new penyewa();
             form_toko.Show();
+            this.Close();
         }
 
         private void menupenjualan_Click(object sender, EventArgs e)
         {
-            mPenjualan form_penjualan = new mPenjualan();
-            form_penjualan.Show();
+            //mPenjualan form_penjualan = new mPenjualan();
+            //form_penjualan.Show();
         }
 
         private void keluarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,6 +61,20 @@ namespace projekakhir
         {
             stock_management db = new stock_management();
             db.Show();
+            this.Close();
+        }
+
+        private void transaksiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Transaksi trans = new Transaksi();
+            trans.Show();
+            this.Close();
+        }
+
+        private void penjualanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            mPenjualan mPenjualan = new mPenjualan();
+            mPenjualan.Show();
             this.Close();
         }
     }
