@@ -23,5 +23,10 @@ namespace projekakhir
             db.Show();
             this.Close();
         }
+
+        private void stock_management_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

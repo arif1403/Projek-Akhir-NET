@@ -77,5 +77,10 @@ namespace projekakhir
             mPenjualan.Show();
             this.Close();
         }
+
+        private void dasboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

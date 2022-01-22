@@ -18,7 +18,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-        (@"Data Source = LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
+        (@"Data Source = LAPTOP-PVNKCO56\SQLEXPRESS;Initial Catalog=Supermarket;Integrated Security=True");
 
         private void resetdata()
         {
@@ -131,6 +131,13 @@ namespace projekakhir
         {
             login masuk = new login();
             masuk.Show();
+            this.Close();
+        }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            login log = new login();
+            log.Show();
             this.Close();
         }
     }
