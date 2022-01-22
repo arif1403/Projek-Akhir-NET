@@ -56,25 +56,25 @@ namespace projekakhir
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1500, 48);
+            this.menuStrip1.Size = new System.Drawing.Size(1251, 44);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // menukaryawan
             // 
             this.menukaryawan.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menukaryawan.ForeColor = System.Drawing.Color.Black;
+            this.menukaryawan.ForeColor = System.Drawing.Color.White;
             this.menukaryawan.Name = "menukaryawan";
-            this.menukaryawan.Size = new System.Drawing.Size(299, 44);
+            this.menukaryawan.Size = new System.Drawing.Size(299, 40);
             this.menukaryawan.Text = "Manajemen Karyawan";
             this.menukaryawan.Click += new System.EventHandler(this.menukaryawan_Click);
             // 
             // menustok
             // 
             this.menustok.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menustok.ForeColor = System.Drawing.Color.Black;
+            this.menustok.ForeColor = System.Drawing.Color.White;
             this.menustok.Name = "menustok";
-            this.menustok.Size = new System.Drawing.Size(234, 44);
+            this.menustok.Size = new System.Drawing.Size(234, 40);
             this.menustok.Text = "Manajemen Stok";
             this.menustok.Click += new System.EventHandler(this.menustok_Click);
             // 
@@ -84,9 +84,9 @@ namespace projekakhir
             this.transaksiToolStripMenuItem,
             this.penjualanToolStripMenuItem});
             this.menupenjualan.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menupenjualan.ForeColor = System.Drawing.Color.Black;
+            this.menupenjualan.ForeColor = System.Drawing.Color.White;
             this.menupenjualan.Name = "menupenjualan";
-            this.menupenjualan.Size = new System.Drawing.Size(297, 44);
+            this.menupenjualan.Size = new System.Drawing.Size(297, 40);
             this.menupenjualan.Text = "Manajemen Penjualan";
             this.menupenjualan.Click += new System.EventHandler(this.menupenjualan_Click);
             // 
@@ -107,16 +107,18 @@ namespace projekakhir
             // manajemenToko
             // 
             this.manajemenToko.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.manajemenToko.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.manajemenToko.Name = "manajemenToko";
-            this.manajemenToko.Size = new System.Drawing.Size(237, 44);
+            this.manajemenToko.Size = new System.Drawing.Size(237, 40);
             this.manajemenToko.Text = "Manajemen toko";
             this.manajemenToko.Click += new System.EventHandler(this.manajemenToko_Click);
             // 
             // keluarToolStripMenuItem
             // 
             this.keluarToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keluarToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.keluarToolStripMenuItem.Name = "keluarToolStripMenuItem";
-            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(111, 44);
+            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(111, 40);
             this.keluarToolStripMenuItem.Text = "Keluar";
             this.keluarToolStripMenuItem.Click += new System.EventHandler(this.keluarToolStripMenuItem_Click);
             // 
@@ -125,7 +127,7 @@ namespace projekakhir
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(582, 94);
+            this.label1.Location = new System.Drawing.Point(597, 105);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(313, 63);
@@ -138,7 +140,7 @@ namespace projekakhir
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1500, 754);
+            this.ClientSize = new System.Drawing.Size(1251, 702);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
