@@ -37,7 +37,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.dTtgl = new System.Windows.Forms.DateTimePicker();
             this.tbIdTrans = new System.Windows.Forms.TextBox();
             this.tbIdToko = new System.Windows.Forms.TextBox();
             this.tbIdPenyewa = new System.Windows.Forms.TextBox();
@@ -48,6 +47,7 @@
             this.btnEdit = new System.Windows.Forms.Button();
             this.dgvTransaksi = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tbTgl = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTransaksi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -141,13 +141,6 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "Tanggal Sewa";
             // 
-            // dTtgl
-            // 
-            this.dTtgl.Location = new System.Drawing.Point(169, 260);
-            this.dTtgl.Name = "dTtgl";
-            this.dTtgl.Size = new System.Drawing.Size(181, 20);
-            this.dTtgl.TabIndex = 2;
-            // 
             // tbIdTrans
             // 
             this.tbIdTrans.BackColor = System.Drawing.Color.Navy;
@@ -238,12 +231,22 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // tbTgl
+            // 
+            this.tbTgl.BackColor = System.Drawing.Color.Navy;
+            this.tbTgl.ForeColor = System.Drawing.Color.White;
+            this.tbTgl.Location = new System.Drawing.Point(169, 261);
+            this.tbTgl.Name = "tbTgl";
+            this.tbTgl.Size = new System.Drawing.Size(110, 20);
+            this.tbTgl.TabIndex = 7;
+            // 
             // Transaksi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(947, 444);
+            this.Controls.Add(this.tbTgl);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tbIdPenyewa);
             this.Controls.Add(this.label5);
@@ -255,7 +258,6 @@
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.tbIdToko);
-            this.Controls.Add(this.dTtgl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.tbIdBrng);
@@ -285,7 +287,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker dTtgl;
         private System.Windows.Forms.TextBox tbIdTrans;
         private System.Windows.Forms.TextBox tbIdToko;
         private System.Windows.Forms.TextBox tbIdPenyewa;
@@ -296,5 +297,6 @@
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.DataGridView dgvTransaksi;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox tbTgl;
     }
 }

@@ -63,10 +63,10 @@ namespace projekakhir
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(44, 156);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(22, 81);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(201, 29);
+            this.label1.Size = new System.Drawing.Size(111, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nama Karyawan";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -76,10 +76,10 @@ namespace projekakhir
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(44, 213);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(22, 111);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(155, 29);
+            this.label2.Size = new System.Drawing.Size(85, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Id Karyawan";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -89,10 +89,10 @@ namespace projekakhir
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(44, 275);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(22, 143);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 29);
+            this.label3.Size = new System.Drawing.Size(33, 15);
             this.label3.TabIndex = 2;
             this.label3.Text = "Gaji";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -102,10 +102,10 @@ namespace projekakhir
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(732, 154);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(366, 80);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 29);
+            this.label4.Size = new System.Drawing.Size(51, 15);
             this.label4.TabIndex = 3;
             this.label4.Text = "Alamat";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -115,10 +115,10 @@ namespace projekakhir
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(732, 213);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(366, 111);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(152, 29);
+            this.label5.Size = new System.Drawing.Size(81, 15);
             this.label5.TabIndex = 4;
             this.label5.Text = "No Telepon";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -127,10 +127,10 @@ namespace projekakhir
             // 
             this.tbnama.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.tbnama.ForeColor = System.Drawing.Color.White;
-            this.tbnama.Location = new System.Drawing.Point(298, 156);
-            this.tbnama.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbnama.Location = new System.Drawing.Point(149, 81);
+            this.tbnama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbnama.Name = "tbnama";
-            this.tbnama.Size = new System.Drawing.Size(290, 31);
+            this.tbnama.Size = new System.Drawing.Size(147, 20);
             this.tbnama.TabIndex = 6;
             this.tbnama.TextChanged += new System.EventHandler(this.tbnama_TextChanged);
             // 
@@ -138,10 +138,10 @@ namespace projekakhir
             // 
             this.tbid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.tbid.ForeColor = System.Drawing.Color.White;
-            this.tbid.Location = new System.Drawing.Point(298, 213);
-            this.tbid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbid.Location = new System.Drawing.Point(149, 111);
+            this.tbid.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbid.Name = "tbid";
-            this.tbid.Size = new System.Drawing.Size(290, 31);
+            this.tbid.Size = new System.Drawing.Size(147, 20);
             this.tbid.TabIndex = 7;
             this.tbid.TextChanged += new System.EventHandler(this.tbid_TextChanged);
             // 
@@ -149,10 +149,10 @@ namespace projekakhir
             // 
             this.tbalamat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.tbalamat.ForeColor = System.Drawing.Color.White;
-            this.tbalamat.Location = new System.Drawing.Point(968, 146);
-            this.tbalamat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbalamat.Location = new System.Drawing.Point(484, 76);
+            this.tbalamat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbalamat.Name = "tbalamat";
-            this.tbalamat.Size = new System.Drawing.Size(306, 31);
+            this.tbalamat.Size = new System.Drawing.Size(155, 20);
             this.tbalamat.TabIndex = 9;
             this.tbalamat.TextChanged += new System.EventHandler(this.tbalamat_TextChanged);
             // 
@@ -160,10 +160,10 @@ namespace projekakhir
             // 
             this.tbgaji.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.tbgaji.ForeColor = System.Drawing.Color.White;
-            this.tbgaji.Location = new System.Drawing.Point(298, 273);
-            this.tbgaji.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbgaji.Location = new System.Drawing.Point(149, 142);
+            this.tbgaji.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbgaji.Name = "tbgaji";
-            this.tbgaji.Size = new System.Drawing.Size(290, 31);
+            this.tbgaji.Size = new System.Drawing.Size(147, 20);
             this.tbgaji.TabIndex = 8;
             this.tbgaji.TextChanged += new System.EventHandler(this.tbgaji_TextChanged);
             // 
@@ -171,30 +171,30 @@ namespace projekakhir
             // 
             this.tbnmrtlp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.tbnmrtlp.ForeColor = System.Drawing.Color.White;
-            this.tbnmrtlp.Location = new System.Drawing.Point(968, 213);
-            this.tbnmrtlp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbnmrtlp.Location = new System.Drawing.Point(484, 111);
+            this.tbnmrtlp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbnmrtlp.Name = "tbnmrtlp";
-            this.tbnmrtlp.Size = new System.Drawing.Size(306, 31);
+            this.tbnmrtlp.Size = new System.Drawing.Size(155, 20);
             this.tbnmrtlp.TabIndex = 10;
             this.tbnmrtlp.TextChanged += new System.EventHandler(this.tbnmrtlp_TextChanged);
             // 
             // dgvkaryawan
             // 
             this.dgvkaryawan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvkaryawan.Location = new System.Drawing.Point(44, 460);
-            this.dgvkaryawan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvkaryawan.Location = new System.Drawing.Point(22, 239);
+            this.dgvkaryawan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvkaryawan.Name = "dgvkaryawan";
             this.dgvkaryawan.RowHeadersWidth = 82;
             this.dgvkaryawan.RowTemplate.Height = 33;
-            this.dgvkaryawan.Size = new System.Drawing.Size(1388, 488);
+            this.dgvkaryawan.Size = new System.Drawing.Size(694, 254);
             this.dgvkaryawan.TabIndex = 12;
             // 
             // bttambah
             // 
-            this.bttambah.Location = new System.Drawing.Point(42, 381);
-            this.bttambah.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttambah.Location = new System.Drawing.Point(21, 198);
+            this.bttambah.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bttambah.Name = "bttambah";
-            this.bttambah.Size = new System.Drawing.Size(172, 52);
+            this.bttambah.Size = new System.Drawing.Size(86, 27);
             this.bttambah.TabIndex = 13;
             this.bttambah.Text = "TAMBAH";
             this.bttambah.UseVisualStyleBackColor = true;
@@ -202,10 +202,10 @@ namespace projekakhir
             // 
             // btupdate
             // 
-            this.btupdate.Location = new System.Drawing.Point(260, 381);
-            this.btupdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btupdate.Location = new System.Drawing.Point(130, 198);
+            this.btupdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btupdate.Name = "btupdate";
-            this.btupdate.Size = new System.Drawing.Size(172, 52);
+            this.btupdate.Size = new System.Drawing.Size(86, 27);
             this.btupdate.TabIndex = 14;
             this.btupdate.Text = "UPDATE";
             this.btupdate.UseVisualStyleBackColor = true;
@@ -213,10 +213,10 @@ namespace projekakhir
             // 
             // bthapus
             // 
-            this.bthapus.Location = new System.Drawing.Point(478, 381);
-            this.bthapus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bthapus.Location = new System.Drawing.Point(239, 198);
+            this.bthapus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bthapus.Name = "bthapus";
-            this.bthapus.Size = new System.Drawing.Size(172, 52);
+            this.bthapus.Size = new System.Drawing.Size(86, 27);
             this.bthapus.TabIndex = 16;
             this.bthapus.Text = "HAPUS";
             this.bthapus.UseVisualStyleBackColor = true;
@@ -235,32 +235,31 @@ namespace projekakhir
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0);
-            this.toolStrip1.Size = new System.Drawing.Size(1480, 50);
+            this.toolStrip1.Size = new System.Drawing.Size(737, 39);
             this.toolStrip1.TabIndex = 18;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 50);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 39);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(77, 44);
+            this.toolStripLabel1.Size = new System.Drawing.Size(39, 36);
             this.toolStripLabel1.Text = "CARI :";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 50);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 39);
             // 
             // tbcari
             // 
-            this.tbcari.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbcari.Name = "tbcari";
-            this.tbcari.Size = new System.Drawing.Size(300, 50);
+            this.tbcari.Size = new System.Drawing.Size(152, 39);
             // 
             // btcari
             // 
@@ -268,7 +267,7 @@ namespace projekakhir
             this.btcari.Image = ((System.Drawing.Image)(resources.GetObject("btcari.Image")));
             this.btcari.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btcari.Name = "btcari";
-            this.btcari.Size = new System.Drawing.Size(46, 44);
+            this.btcari.Size = new System.Drawing.Size(36, 36);
             this.btcari.Text = "toolStripButton2";
             // 
             // button1
@@ -276,10 +275,9 @@ namespace projekakhir
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1342, 81);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button1.Location = new System.Drawing.Point(671, 42);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 48);
+            this.button1.Size = new System.Drawing.Size(57, 25);
             this.button1.TabIndex = 19;
             this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = false;
@@ -287,10 +285,9 @@ namespace projekakhir
             // 
             // btnPrint
             // 
-            this.btnPrint.Location = new System.Drawing.Point(1184, 958);
-            this.btnPrint.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnPrint.Location = new System.Drawing.Point(592, 498);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(248, 56);
+            this.btnPrint.Size = new System.Drawing.Size(124, 29);
             this.btnPrint.TabIndex = 20;
             this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = true;
@@ -300,10 +297,9 @@ namespace projekakhir
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(732, 275);
-            this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label7.Location = new System.Drawing.Point(366, 143);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(177, 29);
+            this.label7.Size = new System.Drawing.Size(98, 15);
             this.label7.TabIndex = 21;
             this.label7.Text = "Jenis Kelamin";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -315,19 +311,18 @@ namespace projekakhir
             this.cbJk.Items.AddRange(new object[] {
             "Laki - laki",
             "Perempuan"});
-            this.cbJk.Location = new System.Drawing.Point(968, 275);
-            this.cbJk.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbJk.Location = new System.Drawing.Point(484, 143);
             this.cbJk.Name = "cbJk";
-            this.cbJk.Size = new System.Drawing.Size(306, 33);
+            this.cbJk.Size = new System.Drawing.Size(155, 21);
             this.cbJk.TabIndex = 22;
             this.cbJk.SelectedIndexChanged += new System.EventHandler(this.cbJk_SelectedIndexChanged);
             // 
             // Mkaryawan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1480, 1033);
+            this.ClientSize = new System.Drawing.Size(737, 552);
             this.Controls.Add(this.cbJk);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnPrint);
@@ -348,7 +343,7 @@ namespace projekakhir
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Mkaryawan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kelola Karyawan";

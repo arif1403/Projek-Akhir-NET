@@ -37,10 +37,13 @@ namespace projekakhir
             // 
             // dgvlaporan
             // 
+            this.dgvlaporan.AllowUserToAddRows = false;
+            this.dgvlaporan.AllowUserToDeleteRows = false;
             this.dgvlaporan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvlaporan.Location = new System.Drawing.Point(37, 48);
-            this.dgvlaporan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvlaporan.Margin = new System.Windows.Forms.Padding(2);
             this.dgvlaporan.Name = "dgvlaporan";
+            this.dgvlaporan.ReadOnly = true;
             this.dgvlaporan.RowHeadersWidth = 82;
             this.dgvlaporan.RowTemplate.Height = 33;
             this.dgvlaporan.Size = new System.Drawing.Size(504, 276);
@@ -74,10 +77,11 @@ namespace projekakhir
             this.Controls.Add(this.dgvlaporan);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "laporan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Laporan";
+            this.Load += new System.EventHandler(this.laporan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvlaporan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

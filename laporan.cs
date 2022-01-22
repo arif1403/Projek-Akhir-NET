@@ -16,5 +16,10 @@ namespace projekakhir
         {
             InitializeComponent();
         }
+
+        private void laporan_Load(object sender, EventArgs e)
+        {
+         
+        }
     }
 }

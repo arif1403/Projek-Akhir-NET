@@ -52,6 +52,7 @@
     <Compile Include="dasboard.Designer.cs">
       <DependentUpon>dasboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="DGVPrinter.cs" />
     <Compile Include="mKaryawan.cs">
       <SubType>Form</SubType>
     </Compile>

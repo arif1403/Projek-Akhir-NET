@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DGVPrinterHelper;
 
 namespace projekakhir
 {
@@ -18,7 +19,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-      (@"Data Source = LAPTOP-PVNKCO56\SQLEXPRESS;Initial Catalog=Supermarket;Integrated Security=True");
+      (@"Data Source = LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
         private void showdata()
         {
             SqlCommand cmd = new SqlCommand();
@@ -144,6 +145,18 @@ namespace projekakhir
             dgvtoko.DataSource = ds;
             dgvtoko.DataMember = "Penyewa";
             dgvtoko.ReadOnly = true;
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            DGVPrinter printer = new DGVPrinter();
+            printer.Title = "Data Penyewa";
+            printer.PageNumbers = true;
+            printer.PageNumberInHeader = false;
+            printer.PorportionalColumns = true;
+            printer.Footer = "Terimakasih";
+            printer.FooterSpacing = 15;
+            printer.PrintDataGridView(dgvtoko);
         }
     }
 }

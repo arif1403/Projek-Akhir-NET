@@ -57,10 +57,13 @@ namespace projekakhir
             // 
             // dgvtoko
             // 
+            this.dgvtoko.AllowUserToAddRows = false;
+            this.dgvtoko.AllowUserToDeleteRows = false;
             this.dgvtoko.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvtoko.Location = new System.Drawing.Point(260, 66);
+            this.dgvtoko.Location = new System.Drawing.Point(285, 90);
             this.dgvtoko.Margin = new System.Windows.Forms.Padding(2);
             this.dgvtoko.Name = "dgvtoko";
+            this.dgvtoko.ReadOnly = true;
             this.dgvtoko.RowHeadersWidth = 82;
             this.dgvtoko.RowTemplate.Height = 33;
             this.dgvtoko.Size = new System.Drawing.Size(464, 274);
@@ -69,7 +72,7 @@ namespace projekakhir
             // 
             // tbcari
             // 
-            this.tbcari.Location = new System.Drawing.Point(569, 32);
+            this.tbcari.Location = new System.Drawing.Point(594, 56);
             this.tbcari.Margin = new System.Windows.Forms.Padding(2);
             this.tbcari.Name = "tbcari";
             this.tbcari.Size = new System.Drawing.Size(150, 20);
@@ -77,7 +80,7 @@ namespace projekakhir
             // 
             // btcari
             // 
-            this.btcari.Location = new System.Drawing.Point(481, 31);
+            this.btcari.Location = new System.Drawing.Point(506, 55);
             this.btcari.Margin = new System.Windows.Forms.Padding(2);
             this.btcari.Name = "btcari";
             this.btcari.Size = new System.Drawing.Size(74, 20);
@@ -88,7 +91,7 @@ namespace projekakhir
             // 
             // btback
             // 
-            this.btback.Location = new System.Drawing.Point(559, 354);
+            this.btback.Location = new System.Drawing.Point(584, 378);
             this.btback.Margin = new System.Windows.Forms.Padding(2);
             this.btback.Name = "btback";
             this.btback.Size = new System.Drawing.Size(60, 22);
@@ -99,12 +102,13 @@ namespace projekakhir
             // 
             // btnPrint
             // 
-            this.btnPrint.Location = new System.Drawing.Point(636, 352);
+            this.btnPrint.Location = new System.Drawing.Point(661, 376);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(60, 24);
             this.btnPrint.TabIndex = 16;
             this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // pictureBox1
             // 
@@ -120,7 +124,7 @@ namespace projekakhir
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(38, 97);
+            this.label1.Location = new System.Drawing.Point(63, 121);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 13);
@@ -131,7 +135,7 @@ namespace projekakhir
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(38, 160);
+            this.label2.Location = new System.Drawing.Point(63, 184);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 13);
@@ -142,7 +146,7 @@ namespace projekakhir
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(38, 127);
+            this.label6.Location = new System.Drawing.Point(63, 151);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 13);
@@ -153,7 +157,7 @@ namespace projekakhir
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(38, 194);
+            this.label3.Location = new System.Drawing.Point(63, 218);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(39, 13);
@@ -168,7 +172,7 @@ namespace projekakhir
             "Elektronik",
             "Sembako",
             "Furniture"});
-            this.cbtipe.Location = new System.Drawing.Point(124, 157);
+            this.cbtipe.Location = new System.Drawing.Point(149, 181);
             this.cbtipe.Margin = new System.Windows.Forms.Padding(2);
             this.cbtipe.Name = "cbtipe";
             this.cbtipe.Size = new System.Drawing.Size(116, 21);
@@ -177,7 +181,7 @@ namespace projekakhir
             // tbid
             // 
             this.tbid.BackColor = System.Drawing.Color.Navy;
-            this.tbid.Location = new System.Drawing.Point(124, 94);
+            this.tbid.Location = new System.Drawing.Point(149, 118);
             this.tbid.Margin = new System.Windows.Forms.Padding(2);
             this.tbid.Name = "tbid";
             this.tbid.Size = new System.Drawing.Size(60, 20);
@@ -186,7 +190,7 @@ namespace projekakhir
             // tbnama
             // 
             this.tbnama.BackColor = System.Drawing.Color.Navy;
-            this.tbnama.Location = new System.Drawing.Point(124, 124);
+            this.tbnama.Location = new System.Drawing.Point(149, 148);
             this.tbnama.Margin = new System.Windows.Forms.Padding(2);
             this.tbnama.Name = "tbnama";
             this.tbnama.Size = new System.Drawing.Size(116, 20);
@@ -195,7 +199,7 @@ namespace projekakhir
             // tbalamat
             // 
             this.tbalamat.BackColor = System.Drawing.Color.Navy;
-            this.tbalamat.Location = new System.Drawing.Point(124, 191);
+            this.tbalamat.Location = new System.Drawing.Point(149, 215);
             this.tbalamat.Margin = new System.Windows.Forms.Padding(2);
             this.tbalamat.Name = "tbalamat";
             this.tbalamat.Size = new System.Drawing.Size(116, 20);
@@ -205,7 +209,7 @@ namespace projekakhir
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(38, 226);
+            this.label4.Location = new System.Drawing.Point(63, 250);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 13);
@@ -215,7 +219,7 @@ namespace projekakhir
             // tbharga
             // 
             this.tbharga.BackColor = System.Drawing.Color.Navy;
-            this.tbharga.Location = new System.Drawing.Point(124, 223);
+            this.tbharga.Location = new System.Drawing.Point(149, 247);
             this.tbharga.Margin = new System.Windows.Forms.Padding(2);
             this.tbharga.Name = "tbharga";
             this.tbharga.Size = new System.Drawing.Size(116, 20);
@@ -225,7 +229,7 @@ namespace projekakhir
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(38, 258);
+            this.label5.Location = new System.Drawing.Point(63, 282);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 13);
@@ -235,7 +239,7 @@ namespace projekakhir
             // tblamasewa
             // 
             this.tblamasewa.BackColor = System.Drawing.Color.Navy;
-            this.tblamasewa.Location = new System.Drawing.Point(124, 255);
+            this.tblamasewa.Location = new System.Drawing.Point(149, 279);
             this.tblamasewa.Margin = new System.Windows.Forms.Padding(2);
             this.tblamasewa.Name = "tblamasewa";
             this.tblamasewa.Size = new System.Drawing.Size(116, 20);
@@ -243,7 +247,7 @@ namespace projekakhir
             // 
             // btsave
             // 
-            this.btsave.Location = new System.Drawing.Point(39, 289);
+            this.btsave.Location = new System.Drawing.Point(64, 313);
             this.btsave.Margin = new System.Windows.Forms.Padding(2);
             this.btsave.Name = "btsave";
             this.btsave.Size = new System.Drawing.Size(60, 22);
@@ -254,7 +258,7 @@ namespace projekakhir
             // 
             // btdelete
             // 
-            this.btdelete.Location = new System.Drawing.Point(111, 289);
+            this.btdelete.Location = new System.Drawing.Point(136, 313);
             this.btdelete.Margin = new System.Windows.Forms.Padding(2);
             this.btdelete.Name = "btdelete";
             this.btdelete.Size = new System.Drawing.Size(60, 22);
@@ -265,7 +269,7 @@ namespace projekakhir
             // 
             // btupdate
             // 
-            this.btupdate.Location = new System.Drawing.Point(176, 289);
+            this.btupdate.Location = new System.Drawing.Point(201, 313);
             this.btupdate.Margin = new System.Windows.Forms.Padding(2);
             this.btupdate.Name = "btupdate";
             this.btupdate.Size = new System.Drawing.Size(60, 22);
@@ -279,7 +283,7 @@ namespace projekakhir
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
-            this.ClientSize = new System.Drawing.Size(760, 403);
+            this.ClientSize = new System.Drawing.Size(795, 471);
             this.Controls.Add(this.btupdate);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btdelete);

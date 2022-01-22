@@ -18,15 +18,17 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-       (@"Data Source =LAPTOP-PVNKCO56\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
+       (@"Data Source =LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
+        
         private void resetdata()
         {
+            
             tbIdTrans.Text = "";
             tbIdToko.Text = "";
             tbIdPenyewa.Text = "";
             tbIdBrng.Text = "";
             tbHarga.Text = "";
-            dTtgl.Text = "";
+            tbTgl.Text = "";
         }
         private void showdata()
         {
@@ -42,10 +44,12 @@ namespace projekakhir
             dgvTransaksi.ReadOnly = true;
 
         }
+       
         private void Transaksi_Load(object sender, EventArgs e)
         {
             showdata();
             resetdata();
+            tbTgl.Text = DateTime.Now.ToString("dd/MM/yyyy");
         }
 
         private void btnBack_Click(object sender, EventArgs e)
