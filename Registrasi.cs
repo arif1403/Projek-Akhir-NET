@@ -18,7 +18,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-        (@"Data Source = LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
+        (@"Data Source = LAPTOP-0EV4K4D6\SQLEXPRESS01;Initial Catalog=SupermarketMS;Integrated Security=True");
 
         private void resetdata()
         {

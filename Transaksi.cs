@@ -18,7 +18,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-       (@"Data Source =LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
+       (@"Data Source =LAPTOP-0EV4K4D6\SQLEXPRESS01;Initial Catalog=SupermarketMS;Integrated Security=True");
         
         private void resetdata()
         {
@@ -26,7 +26,6 @@ namespace projekakhir
             tbIdTrans.Text = "";
             tbIdToko.Text = "";
             tbIdPenyewa.Text = "";
-            tbIdBrng.Text = "";
             tbHarga.Text = "";
             tbTgl.Text = "";
         }
@@ -57,6 +56,89 @@ namespace projekakhir
             dasboard dsb = new dasboard();
             dsb.Show();
             this.Close();
+        }
+
+        private void btnSimpan_Click(object sender, EventArgs e)
+        {
+            if (tbIdTrans.Text == "" | tbIdToko.Text == "" | tbIdPenyewa.Text == "" | tbHarga.Text == "" | tbTgl.Text == "")
+            //gunakan OR untuk argumen membandingkan
+            {
+                MessageBox.Show("Semua data harus diisi", "Peringatan");
+                goto berhenti;
+            }
+
+            int num;
+            //buat variabel num
+            bool isNum = int.TryParse(tbHarga.Text.ToString(), out num);
+            //membuat variabel is Num dan kemudian isi dari variabel isNum itu sendiri
+            //mengubah type data dan menyimpan hasilnya pada variabel num
+
+            if (!isNum)
+            //mengecek nilai isNum false
+            //( karena bukan number melainkan alfabet
+            {
+                MessageBox.Show("Nilai harga harus angka", "Peringatan");
+                goto berhenti;
+            }
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "insert into Transaksi values ('" + tbIdTrans.Text + "','" + tbIdToko.Text + "','" + tbIdPenyewa.Text + "','" + int.Parse(tbHarga.Text) + "','" + tbTgl.Text + "')";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            showdata();
+            resetdata();
+
+        berhenti:
+            ;
+    }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHapus_Click(object sender, EventArgs e)
+        {
+            if (tbIdToko.Text == "")
+            {
+                MessageBox.Show("Pilih Id Toko untuk Delete", "Warning!");
+                goto berhenti;
+            }
+            con.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "delete from Transaksi where store_id='" + tbIdToko.Text + "'";
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Transaksi Penyewaan Berhasil Dihapus");
+            con.Close();
+            showdata();
+            resetdata();
+        berhenti:;
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (tbIdTrans.Text == "" | tbIdToko.Text == "" | tbIdPenyewa.Text == "" | tbHarga.Text == "" | tbTgl.Text == "")
+            {
+                MessageBox.Show("Missing Information");
+                goto berhenti;
+            }
+            con.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "update Transaksi set id_transaksi = '" + tbIdTrans.Text + "', penyewa_id='" +
+                   tbIdPenyewa.Text + "', harga = '" + int.Parse(tbHarga.Text) + "', tgl_sewa='" + int.Parse(tbTgl.Text) + "' where store_id='" + tbIdToko.Text + "'";
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Transaksi Berhasil Diedit");
+            con.Close();
+            showdata();
+            resetdata();
+        berhenti:;
         }
     }
 }

@@ -59,7 +59,6 @@ C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhi
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.Registrasi.resources
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.mPenjualan.resources
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.stock_management.resources
-C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.toko.resources
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.csproj.GenerateResource.cache
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.exe
@@ -140,3 +139,6 @@ C:\Users\ACER\Source\Repos\Projek-Akhir-NET_22012022\obj\Debug\projekakhir.cspro
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_22012022\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_22012022\obj\Debug\projekakhir.exe
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_22012022\obj\Debug\projekakhir.pdb
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.splashscreen.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.penyewa.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.Transaksi.resources

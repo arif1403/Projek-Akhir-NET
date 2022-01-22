@@ -34,13 +34,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.tbIdTrans = new System.Windows.Forms.TextBox();
             this.tbIdToko = new System.Windows.Forms.TextBox();
             this.tbIdPenyewa = new System.Windows.Forms.TextBox();
-            this.tbIdBrng = new System.Windows.Forms.TextBox();
             this.tbHarga = new System.Windows.Forms.TextBox();
             this.btnSimpan = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
@@ -108,27 +106,17 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Id Penyewa";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(34, 191);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 15);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Id Barang";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(34, 229);
+            this.label5.Location = new System.Drawing.Point(34, 189);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 15);
             this.label5.TabIndex = 1;
             this.label5.Text = "Harga";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -168,20 +156,11 @@
             this.tbIdPenyewa.Size = new System.Drawing.Size(111, 20);
             this.tbIdPenyewa.TabIndex = 3;
             // 
-            // tbIdBrng
-            // 
-            this.tbIdBrng.BackColor = System.Drawing.Color.Navy;
-            this.tbIdBrng.ForeColor = System.Drawing.Color.White;
-            this.tbIdBrng.Location = new System.Drawing.Point(169, 188);
-            this.tbIdBrng.Name = "tbIdBrng";
-            this.tbIdBrng.Size = new System.Drawing.Size(111, 20);
-            this.tbIdBrng.TabIndex = 3;
-            // 
             // tbHarga
             // 
             this.tbHarga.BackColor = System.Drawing.Color.Navy;
             this.tbHarga.ForeColor = System.Drawing.Color.White;
-            this.tbHarga.Location = new System.Drawing.Point(169, 226);
+            this.tbHarga.Location = new System.Drawing.Point(169, 188);
             this.tbHarga.Name = "tbHarga";
             this.tbHarga.Size = new System.Drawing.Size(111, 20);
             this.tbHarga.TabIndex = 3;
@@ -194,6 +173,7 @@
             this.btnSimpan.TabIndex = 4;
             this.btnSimpan.Text = "Simpan";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // btnHapus
             // 
@@ -203,6 +183,7 @@
             this.btnHapus.TabIndex = 4;
             this.btnHapus.Text = "Hapus";
             this.btnHapus.UseVisualStyleBackColor = true;
+            this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
             // 
             // btnEdit
             // 
@@ -212,6 +193,7 @@
             this.btnEdit.TabIndex = 4;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // dgvTransaksi
             // 
@@ -256,11 +238,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.tbIdToko);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSimpan);
-            this.Controls.Add(this.tbIdBrng);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbHarga);
@@ -284,13 +264,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox tbIdTrans;
         private System.Windows.Forms.TextBox tbIdToko;
         private System.Windows.Forms.TextBox tbIdPenyewa;
-        private System.Windows.Forms.TextBox tbIdBrng;
         private System.Windows.Forms.TextBox tbHarga;
         private System.Windows.Forms.Button btnSimpan;
         private System.Windows.Forms.Button btnHapus;
