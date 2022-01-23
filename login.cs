@@ -19,7 +19,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-        (@"Data Source = LAPTOP-PVNKCO56\SQLEXPRESS;Initial Catalog=Supermarket;Integrated Security=True");
+        (@"Data Source = LAPTOP-0EV4K4D6\SQLEXPRESS01;Initial Catalog=SupermarketMS;Integrated Security=True");
         private string CaesarCipher(string value, int shift)
         {
             string[] joinCipher = new string[200];

@@ -18,7 +18,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-        (@"Data Source =LAPTOP-PVNKCO56\SQLEXPRESS;Initial Catalog=Supermarket;Integrated Security=True");
+        (@"Data Source =LAPTOP-0EV4K4D6\SQLEXPRESS01;Initial Catalog=SupermarketMS;Integrated Security=True");
 
         private void barang_Load(object sender, EventArgs e)
         {
@@ -47,7 +47,31 @@ namespace projekakhir
 
         }
 
+        private void btnSimpan_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandText = "sp_barang";
+            cmd.CommandType = CommandType.StoredProcedure;
 
+            SqlParameter id_barang = new SqlParameter("id_barang", SqlDbType.VarChar);
+            SqlParameter id_supplier = new SqlParameter("id_supplier", SqlDbType.VarChar);
+            SqlParameter tipe_barang = new SqlParameter("tipe_barang", SqlDbType.VarChar);
 
+            id_barang.Value = tbBarang.Text;
+            id_supplier.Value = tbSuplier.Text;
+            tipe_barang.Value = tbTipe.Text;
+
+            cmd.Parameters.Add(id_barang);
+            cmd.Parameters.Add(id_supplier);
+            cmd.Parameters.Add(tipe_barang);
+
+            cmd.ExecuteNonQuery() ;
+
+            con.Close();
+            showdata();
+            resetdata();
+        }
     }
 }

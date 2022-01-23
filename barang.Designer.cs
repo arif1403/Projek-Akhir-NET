@@ -45,93 +45,104 @@ namespace projekakhir
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(97, 212);
+            this.label1.Location = new System.Drawing.Point(48, 110);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 25);
+            this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Id barang";
             // 
             // tbBarang
             // 
-            this.tbBarang.Location = new System.Drawing.Point(306, 212);
+            this.tbBarang.Location = new System.Drawing.Point(153, 110);
+            this.tbBarang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbBarang.Name = "tbBarang";
-            this.tbBarang.Size = new System.Drawing.Size(173, 31);
+            this.tbBarang.Size = new System.Drawing.Size(88, 20);
             this.tbBarang.TabIndex = 1;
             // 
             // tbSuplier
             // 
-            this.tbSuplier.Location = new System.Drawing.Point(306, 270);
+            this.tbSuplier.Location = new System.Drawing.Point(153, 140);
+            this.tbSuplier.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbSuplier.Name = "tbSuplier";
-            this.tbSuplier.Size = new System.Drawing.Size(173, 31);
+            this.tbSuplier.Size = new System.Drawing.Size(88, 20);
             this.tbSuplier.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(97, 270);
+            this.label2.Location = new System.Drawing.Point(48, 140);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 25);
+            this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Id suplier";
             // 
             // tbTipe
             // 
-            this.tbTipe.Location = new System.Drawing.Point(306, 333);
+            this.tbTipe.Location = new System.Drawing.Point(153, 173);
+            this.tbTipe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbTipe.Name = "tbTipe";
-            this.tbTipe.Size = new System.Drawing.Size(173, 31);
+            this.tbTipe.Size = new System.Drawing.Size(88, 20);
             this.tbTipe.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(97, 333);
+            this.label3.Location = new System.Drawing.Point(48, 173);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 25);
+            this.label3.Size = new System.Drawing.Size(64, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Tipe barang";
             // 
             // dgvBarang
             // 
             this.dgvBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBarang.Location = new System.Drawing.Point(583, 212);
+            this.dgvBarang.Location = new System.Drawing.Point(292, 110);
+            this.dgvBarang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvBarang.Name = "dgvBarang";
             this.dgvBarang.RowHeadersWidth = 82;
             this.dgvBarang.RowTemplate.Height = 33;
-            this.dgvBarang.Size = new System.Drawing.Size(574, 517);
+            this.dgvBarang.Size = new System.Drawing.Size(287, 269);
             this.dgvBarang.TabIndex = 6;
             // 
             // btnSimpan
             // 
-            this.btnSimpan.Location = new System.Drawing.Point(583, 147);
+            this.btnSimpan.Location = new System.Drawing.Point(292, 76);
+            this.btnSimpan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSimpan.Name = "btnSimpan";
-            this.btnSimpan.Size = new System.Drawing.Size(161, 45);
+            this.btnSimpan.Size = new System.Drawing.Size(80, 23);
             this.btnSimpan.TabIndex = 7;
             this.btnSimpan.Text = "SIMPAN";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(786, 147);
+            this.btnUpdate.Location = new System.Drawing.Point(393, 76);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(161, 45);
+            this.btnUpdate.Size = new System.Drawing.Size(80, 23);
             this.btnUpdate.TabIndex = 8;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = true;
             // 
             // btnHapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(996, 147);
+            this.btnHapus.Location = new System.Drawing.Point(498, 76);
+            this.btnHapus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHapus.Name = "btnHapus";
-            this.btnHapus.Size = new System.Drawing.Size(161, 45);
+            this.btnHapus.Size = new System.Drawing.Size(80, 23);
             this.btnHapus.TabIndex = 9;
             this.btnHapus.Text = "HAPUS";
             this.btnHapus.UseVisualStyleBackColor = true;
             // 
             // barang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1250, 806);
+            this.ClientSize = new System.Drawing.Size(625, 389);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnSimpan);
@@ -142,6 +153,7 @@ namespace projekakhir
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbBarang);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "barang";
             this.Text = "barang";
             this.Load += new System.EventHandler(this.barang_Load);
