@@ -11,36 +11,34 @@ using System.Data.SqlClient;
 
 namespace projekakhir
 {
-    public partial class mPenjualan : Form
+    public partial class mStore : Form
     {
-        public mPenjualan()
+        public mStore()
         {
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-       (@"Data Source = LAPTOP-0EV4K4D6\SQLEXPRESS01;Initial Catalog=SupermarketMS;Integrated Security=True");
+       (@"Data Source = LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
         private void showdata()
         {
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from Transaksi";
+            cmd.CommandText = "select * from Store";
             DataSet ds = new DataSet();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(ds, "Transaksi");
+            da.Fill(ds, "Store");
             dgvtransaksi.DataSource = ds;
-            dgvtransaksi.DataMember = "Transaksi";
+            dgvtransaksi.DataMember = "Store";
             dgvtransaksi.ReadOnly = true;
         }
         private void resetdata()
         {
-            tbnamakaryawan.Text = "";
-            tbnamabarang.Text = "";
-            tbidbarang.Text = "";
-            tbharga.Text="";
+            tbIdtoko.Text = "";
+            tbnamatoko.Text = "";
+            cbStoreType.Text = "";
             tbharga.Text = "";
-            tbkuantiti.Text = "";
-            tbnomortelp.Text = "";
+            tbalamat.Text = "";
         }
         private void btback_Click(object sender, EventArgs e)
         {

@@ -19,7 +19,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-      (@"Data Source =LAPTOP-0EV4K4D6\SQLEXPRESS01;Initial Catalog=SupermarketMS;Integrated Security=True");
+      (@"Data Source =LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
         private void showdata()
         {
             SqlCommand cmd = new SqlCommand();
@@ -41,7 +41,7 @@ namespace projekakhir
             tblamasewa.Text = "";
             tbalamat.Text = "";
             tbnama.Text = "";
-            cbtipe.Text = "";
+            
         }
         private void btback_Click(object sender, EventArgs e)
         {
@@ -63,7 +63,7 @@ namespace projekakhir
 
         private void btsave_Click(object sender, EventArgs e)
         {
-            if (tbid.Text == ""|tbnama.Text==""|tbharga.Text==""|tbharga.Text==""|tblamasewa.Text==""|cbtipe.Text=="")
+            if (tbid.Text == ""|tbnama.Text==""|tbharga.Text==""|tbharga.Text==""|tblamasewa.Text=="")
             {
                 MessageBox.Show("Isi id toko yang akan dihapus");
                 goto berhenti;
@@ -73,7 +73,7 @@ namespace projekakhir
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "insert into Penyewa values ('" + tbid.Text + "','"+tbnama.Text+"', '" + tbalamat.Text + "', '" + 
-                                cbtipe.Text +"','"+ int.Parse(tbharga.Text) + "', '" + int.Parse(tblamasewa.Text) + "')";
+                               "','"+ int.Parse(tbharga.Text) + "', '" + int.Parse(tblamasewa.Text) + "')";
             cmd.ExecuteNonQuery();
             con.Close();
             showdata();
@@ -109,7 +109,7 @@ namespace projekakhir
 
         private void btupdate_Click(object sender, EventArgs e)
         {
-            if (tbid.Text == "" | tbalamat.Text == "" | tblamasewa.Text == "" | tbharga.Text == ""|cbtipe.Text=="")
+            if (tbid.Text == "" | tbalamat.Text == "" | tblamasewa.Text == "" | tbharga.Text == "")
             {
                 MessageBox.Show("Semua data harus di isi", "peringatan");
                 goto berhenti;
@@ -120,7 +120,7 @@ namespace projekakhir
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "update Penyewa set penyewa_name = '" + tbnama.Text + "', alamat_penyewa='" + tbalamat.Text + "', penyewa_type='" +
-                        cbtipe.Text + "', harga_sewa = '" + int.Parse(tbharga.Text) + "', lama_sewa='" + int.Parse(tblamasewa.Text) + 
+                        "', harga_sewa = '" + int.Parse(tbharga.Text) + "', lama_sewa='" + int.Parse(tblamasewa.Text) + 
                         "' where penyewa_id='" + tbid.Text + "'";
             cmd.ExecuteNonQuery();
             MessageBox.Show("Update data Penyewa Successfully");

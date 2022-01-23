@@ -73,7 +73,7 @@ namespace projekakhir
 
         private void penjualanToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            mPenjualan mPenjualan = new mPenjualan();
+            mStore mPenjualan = new mStore();
             mPenjualan.Show();
             this.Close();
         }

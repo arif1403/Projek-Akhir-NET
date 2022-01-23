@@ -183,3 +183,24 @@ C:\Users\bonda\Source\Repos\Projek-Akhir-NET7\obj\Debug\projekakhir.csproj.CoreC
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET7\obj\Debug\projekakhir.exe
 C:\Users\bonda\Source\Repos\Projek-Akhir-NET7\obj\Debug\projekakhir.pdb
 C:\Users\MUHAMAD ABDUL GHOFUR\Source\Repos\Projek-Akhir-NET\obj\Debug\projekakhir.barang.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\bin\Debug\projekakhir.exe.config
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\bin\Debug\projekakhir.exe
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\bin\Debug\projekakhir.pdb
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.csproj.AssemblyReference.cache
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.csproj.SuggestedBindingRedirects.cache
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.barang.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.dasboard.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.Mkaryawan.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.laporan.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.login.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.Properties.Resources.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.Registrasi.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.splashscreen.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.stock_management.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.penyewa.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.Transaksi.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.csproj.GenerateResource.cache
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.exe
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.pdb
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.mStore.resources

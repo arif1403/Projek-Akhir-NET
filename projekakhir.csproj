@@ -85,11 +85,11 @@
     <Compile Include="Registrasi.Designer.cs">
       <DependentUpon>Registrasi.cs</DependentUpon>
     </Compile>
-    <Compile Include="mPenjualan.cs">
+    <Compile Include="mStore.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mPenjualan.Designer.cs">
-      <DependentUpon>mPenjualan.cs</DependentUpon>
+    <Compile Include="mStore.Designer.cs">
+      <DependentUpon>mStore.cs</DependentUpon>
     </Compile>
     <Compile Include="splashscreen.cs">
       <SubType>Form</SubType>
@@ -108,6 +108,12 @@
     </Compile>
     <Compile Include="penyewa.Designer.cs">
       <DependentUpon>penyewa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier.Designer.cs">
+      <DependentUpon>Supplier.cs</DependentUpon>
     </Compile>
     <Compile Include="Transaksi.cs">
       <SubType>Form</SubType>
@@ -142,8 +148,8 @@
     <EmbeddedResource Include="Registrasi.resx">
       <DependentUpon>Registrasi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mPenjualan.resx">
-      <DependentUpon>mPenjualan.cs</DependentUpon>
+    <EmbeddedResource Include="mStore.resx">
+      <DependentUpon>mStore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="splashscreen.resx">
       <DependentUpon>splashscreen.cs</DependentUpon>
@@ -153,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="penyewa.resx">
       <DependentUpon>penyewa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supplier.resx">
+      <DependentUpon>Supplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transaksi.resx">
       <DependentUpon>Transaksi.cs</DependentUpon>

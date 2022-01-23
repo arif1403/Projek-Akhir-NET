@@ -37,10 +37,8 @@ namespace projekakhir
             this.btnPrint = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.cbtipe = new System.Windows.Forms.ComboBox();
             this.tbid = new System.Windows.Forms.TextBox();
             this.tbnama = new System.Windows.Forms.TextBox();
             this.tbalamat = new System.Windows.Forms.TextBox();
@@ -62,7 +60,7 @@ namespace projekakhir
             this.dgvtoko.AllowUserToDeleteRows = false;
             this.dgvtoko.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvtoko.Location = new System.Drawing.Point(285, 90);
-            this.dgvtoko.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvtoko.Margin = new System.Windows.Forms.Padding(2);
             this.dgvtoko.Name = "dgvtoko";
             this.dgvtoko.ReadOnly = true;
             this.dgvtoko.RowHeadersWidth = 82;
@@ -74,7 +72,7 @@ namespace projekakhir
             // tbcari
             // 
             this.tbcari.Location = new System.Drawing.Point(594, 56);
-            this.tbcari.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbcari.Margin = new System.Windows.Forms.Padding(2);
             this.tbcari.Name = "tbcari";
             this.tbcari.Size = new System.Drawing.Size(150, 20);
             this.tbcari.TabIndex = 12;
@@ -82,7 +80,7 @@ namespace projekakhir
             // btcari
             // 
             this.btcari.Location = new System.Drawing.Point(506, 55);
-            this.btcari.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btcari.Margin = new System.Windows.Forms.Padding(2);
             this.btcari.Name = "btcari";
             this.btcari.Size = new System.Drawing.Size(74, 20);
             this.btcari.TabIndex = 13;
@@ -93,7 +91,7 @@ namespace projekakhir
             // btback
             // 
             this.btback.Location = new System.Drawing.Point(584, 378);
-            this.btback.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btback.Margin = new System.Windows.Forms.Padding(2);
             this.btback.Name = "btback";
             this.btback.Size = new System.Drawing.Size(60, 22);
             this.btback.TabIndex = 10;
@@ -132,17 +130,6 @@ namespace projekakhir
             this.label1.TabIndex = 0;
             this.label1.Text = "Id Penyewa";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(63, 184);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Tipe";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -165,25 +152,11 @@ namespace projekakhir
             this.label3.TabIndex = 2;
             this.label3.Text = "Alamat";
             // 
-            // cbtipe
-            // 
-            this.cbtipe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbtipe.FormattingEnabled = true;
-            this.cbtipe.Items.AddRange(new object[] {
-            "Elektronik",
-            "Sembako",
-            "Furniture"});
-            this.cbtipe.Location = new System.Drawing.Point(149, 181);
-            this.cbtipe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.cbtipe.Name = "cbtipe";
-            this.cbtipe.Size = new System.Drawing.Size(116, 21);
-            this.cbtipe.TabIndex = 3;
-            // 
             // tbid
             // 
             this.tbid.BackColor = System.Drawing.Color.Navy;
             this.tbid.Location = new System.Drawing.Point(149, 118);
-            this.tbid.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbid.Margin = new System.Windows.Forms.Padding(2);
             this.tbid.Name = "tbid";
             this.tbid.Size = new System.Drawing.Size(60, 20);
             this.tbid.TabIndex = 4;
@@ -192,7 +165,7 @@ namespace projekakhir
             // 
             this.tbnama.BackColor = System.Drawing.Color.Navy;
             this.tbnama.Location = new System.Drawing.Point(149, 148);
-            this.tbnama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbnama.Margin = new System.Windows.Forms.Padding(2);
             this.tbnama.Name = "tbnama";
             this.tbnama.Size = new System.Drawing.Size(116, 20);
             this.tbnama.TabIndex = 4;
@@ -201,7 +174,7 @@ namespace projekakhir
             // 
             this.tbalamat.BackColor = System.Drawing.Color.Navy;
             this.tbalamat.Location = new System.Drawing.Point(149, 215);
-            this.tbalamat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbalamat.Margin = new System.Windows.Forms.Padding(2);
             this.tbalamat.Name = "tbalamat";
             this.tbalamat.Size = new System.Drawing.Size(116, 20);
             this.tbalamat.TabIndex = 5;
@@ -221,7 +194,7 @@ namespace projekakhir
             // 
             this.tbharga.BackColor = System.Drawing.Color.Navy;
             this.tbharga.Location = new System.Drawing.Point(149, 247);
-            this.tbharga.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbharga.Margin = new System.Windows.Forms.Padding(2);
             this.tbharga.Name = "tbharga";
             this.tbharga.Size = new System.Drawing.Size(116, 20);
             this.tbharga.TabIndex = 7;
@@ -241,7 +214,7 @@ namespace projekakhir
             // 
             this.tblamasewa.BackColor = System.Drawing.Color.Navy;
             this.tblamasewa.Location = new System.Drawing.Point(149, 279);
-            this.tblamasewa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tblamasewa.Margin = new System.Windows.Forms.Padding(2);
             this.tblamasewa.Name = "tblamasewa";
             this.tblamasewa.Size = new System.Drawing.Size(116, 20);
             this.tblamasewa.TabIndex = 9;
@@ -249,7 +222,7 @@ namespace projekakhir
             // btsave
             // 
             this.btsave.Location = new System.Drawing.Point(64, 313);
-            this.btsave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btsave.Margin = new System.Windows.Forms.Padding(2);
             this.btsave.Name = "btsave";
             this.btsave.Size = new System.Drawing.Size(60, 22);
             this.btsave.TabIndex = 10;
@@ -260,7 +233,7 @@ namespace projekakhir
             // btdelete
             // 
             this.btdelete.Location = new System.Drawing.Point(136, 313);
-            this.btdelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btdelete.Margin = new System.Windows.Forms.Padding(2);
             this.btdelete.Name = "btdelete";
             this.btdelete.Size = new System.Drawing.Size(60, 22);
             this.btdelete.TabIndex = 14;
@@ -271,7 +244,7 @@ namespace projekakhir
             // btupdate
             // 
             this.btupdate.Location = new System.Drawing.Point(201, 313);
-            this.btupdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btupdate.Margin = new System.Windows.Forms.Padding(2);
             this.btupdate.Name = "btupdate";
             this.btupdate.Size = new System.Drawing.Size(60, 22);
             this.btupdate.TabIndex = 15;
@@ -282,7 +255,7 @@ namespace projekakhir
             // btnBarang
             // 
             this.btnBarang.Location = new System.Drawing.Point(64, 410);
-            this.btnBarang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBarang.Margin = new System.Windows.Forms.Padding(2);
             this.btnBarang.Name = "btnBarang";
             this.btnBarang.Size = new System.Drawing.Size(130, 27);
             this.btnBarang.TabIndex = 17;
@@ -314,12 +287,10 @@ namespace projekakhir
             this.Controls.Add(this.tbnama);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbid);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.cbtipe);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "penyewa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "toko";
@@ -339,10 +310,8 @@ namespace projekakhir
         private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cbtipe;
         private System.Windows.Forms.TextBox tbid;
         private System.Windows.Forms.TextBox tbnama;
         private System.Windows.Forms.TextBox tbalamat;
