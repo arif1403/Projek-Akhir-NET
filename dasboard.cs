@@ -59,9 +59,9 @@ namespace projekakhir
 
         private void menustok_Click(object sender, EventArgs e)
         {
-            stock_management db = new stock_management();
+            /*stock_management db = new stock_management();
             db.Show();
-            this.Close();
+            this.Close();*/
         }
 
         private void transaksiToolStripMenuItem_Click(object sender, EventArgs e)
@@ -81,6 +81,20 @@ namespace projekakhir
         private void dasboard_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void supplierToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Supplier sp = new Supplier();
+            sp.Show();
+            this.Hide();
+        }
+
+        private void barangToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            barang brg = new barang();
+            brg.Show();
+            this.Hide();
         }
     }
 }

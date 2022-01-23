@@ -38,6 +38,7 @@
             this.btSave = new System.Windows.Forms.Button();
             this.btUpdate = new System.Windows.Forms.Button();
             this.btDelete = new System.Windows.Forms.Button();
+            this.btBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSupplier)).BeginInit();
             this.SuspendLayout();
             // 
@@ -108,6 +109,7 @@
             this.btSave.TabIndex = 4;
             this.btSave.Text = "Save";
             this.btSave.UseVisualStyleBackColor = true;
+            this.btSave.Click += new System.EventHandler(this.btSave_Click);
             // 
             // btUpdate
             // 
@@ -117,6 +119,7 @@
             this.btUpdate.TabIndex = 4;
             this.btUpdate.Text = "Update";
             this.btUpdate.UseVisualStyleBackColor = true;
+            this.btUpdate.Click += new System.EventHandler(this.btUpdate_Click);
             // 
             // btDelete
             // 
@@ -126,12 +129,24 @@
             this.btDelete.TabIndex = 4;
             this.btDelete.Text = "Delete";
             this.btDelete.UseVisualStyleBackColor = true;
+            this.btDelete.Click += new System.EventHandler(this.btDelete_Click);
+            // 
+            // btBack
+            // 
+            this.btBack.Location = new System.Drawing.Point(590, 20);
+            this.btBack.Name = "btBack";
+            this.btBack.Size = new System.Drawing.Size(58, 30);
+            this.btBack.TabIndex = 5;
+            this.btBack.Text = "Back";
+            this.btBack.UseVisualStyleBackColor = true;
+            this.btBack.Click += new System.EventHandler(this.btBack_Click);
             // 
             // Supplier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 419);
+            this.Controls.Add(this.btBack);
             this.Controls.Add(this.btDelete);
             this.Controls.Add(this.btUpdate);
             this.Controls.Add(this.btSave);
@@ -144,6 +159,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Supplier";
             this.Text = "Supplier";
+            this.Load += new System.EventHandler(this.Supplier_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvSupplier)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -162,5 +178,6 @@
         private System.Windows.Forms.Button btSave;
         private System.Windows.Forms.Button btUpdate;
         private System.Windows.Forms.Button btDelete;
+        private System.Windows.Forms.Button btBack;
     }
 }

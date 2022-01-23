@@ -204,3 +204,4 @@ C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.cspr
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.exe
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.pdb
 C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.mStore.resources
+C:\Users\ACER\Source\Repos\Projek-Akhir-NET_23012022+\obj\Debug\projekakhir.Supplier.resources
