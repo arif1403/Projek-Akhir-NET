@@ -45,7 +45,9 @@
             this.btnEdit = new System.Windows.Forms.Button();
             this.dgvTransaksi = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.tbTgl = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tbBrng = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTransaksi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -111,7 +113,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(34, 189);
+            this.label5.Location = new System.Drawing.Point(34, 193);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 15);
             this.label5.TabIndex = 1;
@@ -123,7 +125,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(34, 266);
+            this.label6.Location = new System.Drawing.Point(34, 309);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(98, 15);
             this.label6.TabIndex = 1;
@@ -167,7 +169,7 @@
             // 
             // btnSimpan
             // 
-            this.btnSimpan.Location = new System.Drawing.Point(37, 314);
+            this.btnSimpan.Location = new System.Drawing.Point(37, 357);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(97, 35);
             this.btnSimpan.TabIndex = 4;
@@ -177,7 +179,7 @@
             // 
             // btnHapus
             // 
-            this.btnHapus.Location = new System.Drawing.Point(150, 314);
+            this.btnHapus.Location = new System.Drawing.Point(150, 357);
             this.btnHapus.Name = "btnHapus";
             this.btnHapus.Size = new System.Drawing.Size(97, 35);
             this.btnHapus.TabIndex = 4;
@@ -187,7 +189,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(263, 314);
+            this.btnEdit.Location = new System.Drawing.Point(263, 357);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(97, 35);
             this.btnEdit.TabIndex = 4;
@@ -213,14 +215,34 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // tbTgl
+            // label4
             // 
-            this.tbTgl.BackColor = System.Drawing.Color.Navy;
-            this.tbTgl.ForeColor = System.Drawing.Color.White;
-            this.tbTgl.Location = new System.Drawing.Point(169, 261);
-            this.tbTgl.Name = "tbTgl";
-            this.tbTgl.Size = new System.Drawing.Size(110, 20);
-            this.tbTgl.TabIndex = 7;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(34, 229);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 15);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Id Barang";
+            this.label4.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // tbBrng
+            // 
+            this.tbBrng.BackColor = System.Drawing.Color.Navy;
+            this.tbBrng.ForeColor = System.Drawing.Color.White;
+            this.tbBrng.Location = new System.Drawing.Point(168, 224);
+            this.tbBrng.Name = "tbBrng";
+            this.tbBrng.Size = new System.Drawing.Size(111, 20);
+            this.tbBrng.TabIndex = 3;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "dd-MM-yyyy";
+            this.dateTimePicker1.Location = new System.Drawing.Point(168, 305);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(111, 20);
+            this.dateTimePicker1.TabIndex = 7;
             // 
             // Transaksi
             // 
@@ -228,9 +250,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(947, 444);
-            this.Controls.Add(this.tbTgl);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tbIdPenyewa);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.dgvTransaksi);
@@ -243,6 +266,7 @@
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.tbBrng);
             this.Controls.Add(this.tbHarga);
             this.Controls.Add(this.tbIdTrans);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -275,6 +299,8 @@
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.DataGridView dgvTransaksi;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox tbTgl;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tbBrng;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

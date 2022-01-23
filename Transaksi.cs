@@ -18,7 +18,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-       (@"Data Source =LAPTOP-0EV4K4D6\SQLEXPRESS01;Initial Catalog=SupermarketMS;Integrated Security=True");
+       (@"Data Source =LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
         
         private void resetdata()
         {
@@ -27,7 +27,11 @@ namespace projekakhir
             tbIdToko.Text = "";
             tbIdPenyewa.Text = "";
             tbHarga.Text = "";
-            tbTgl.Text = "";
+            dateTimePicker1.Text = "";
+            tbBrng.Text = "";
+            tbKaryawan.Text = "";
+            
+
         }
         private void showdata()
         {
@@ -48,7 +52,8 @@ namespace projekakhir
         {
             showdata();
             resetdata();
-            tbTgl.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            //textBox1.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -60,7 +65,7 @@ namespace projekakhir
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
-            if (tbIdTrans.Text == "" | tbIdToko.Text == "" | tbIdPenyewa.Text == "" | tbHarga.Text == "" | tbTgl.Text == "")
+            if (tbIdTrans.Text == "" | tbIdToko.Text == "" | tbIdPenyewa.Text == "" | tbHarga.Text == "" |tbBrng.Text ==""|tbKaryawan.Text == ""|dateTimePicker1.Text=="")
             //gunakan OR untuk argumen membandingkan
             {
                 MessageBox.Show("Semua data harus diisi", "Peringatan");
@@ -85,7 +90,8 @@ namespace projekakhir
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into Transaksi values ('" + tbIdTrans.Text + "','" + tbIdToko.Text + "','" + tbIdPenyewa.Text + "','" + int.Parse(tbHarga.Text) + "','" + tbTgl.Text + "')";
+            cmd.CommandText = "insert into Transaksi values ('" + tbIdTrans.Text + "','" + tbIdToko.Text + "','" + tbIdPenyewa.Text + "','" + int.Parse(tbHarga.Text) +
+               "','" + tbBrng.Text+ "','" + dateTimePicker1.Value.ToString("yyyy-MM-dd HH:mm:ss.fffffffK") + "')";
             cmd.ExecuteNonQuery();
             con.Close();
             showdata();
@@ -122,7 +128,7 @@ namespace projekakhir
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            if (tbIdTrans.Text == "" | tbIdToko.Text == "" | tbIdPenyewa.Text == "" | tbHarga.Text == "" | tbTgl.Text == "")
+            if (tbIdTrans.Text == "" | tbIdToko.Text == "" | tbIdPenyewa.Text == "" | tbHarga.Text == "" |tbBrng.Text == "")
             {
                 MessageBox.Show("Missing Information");
                 goto berhenti;
@@ -132,7 +138,8 @@ namespace projekakhir
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "update Transaksi set id_transaksi = '" + tbIdTrans.Text + "', penyewa_id='" +
-                   tbIdPenyewa.Text + "', harga = '" + int.Parse(tbHarga.Text) + "', tgl_sewa='" + int.Parse(tbTgl.Text) + "' where store_id='" + tbIdToko.Text + "'";
+                   tbIdPenyewa.Text + "', harga = '" + int.Parse(tbHarga.Text) + "', id_barang = '" + tbBrng.Text +
+                   "', tgl_sewa='" + dateTimePicker1.Value.ToString("yyyy-MM-dd HH:mm:ss.fffffffK") + "' where store_id='" + tbIdToko.Text + "'";
             cmd.ExecuteNonQuery();
             MessageBox.Show("Transaksi Berhasil Diedit");
             con.Close();

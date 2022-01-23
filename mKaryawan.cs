@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DGVPrinterHelper;
 
 namespace projekakhir
 {
@@ -18,7 +19,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-        (@"Data Source = LAPTOP-0EV4K4D6\SQLEXPRESS01;Initial Catalog=SupermarketMS;Integrated Security=True");
+        (@"Data Source = LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
         private void resetdata()
         {
             tbid.Text = "";
@@ -196,6 +197,18 @@ namespace projekakhir
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            DGVPrinter printer = new DGVPrinter();
+            printer.Title = "Data Penyewa";
+            printer.PageNumbers = true;
+            printer.PageNumberInHeader = false;
+            printer.PorportionalColumns = true;
+            printer.Footer = "Terimakasih";
+            printer.FooterSpacing = 15;
+            printer.PrintDataGridView(dgvkaryawan);
         }
     }
 }
