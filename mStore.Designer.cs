@@ -166,6 +166,7 @@ namespace projekakhir
             this.btsave.TabIndex = 17;
             this.btsave.Text = "SAVE";
             this.btsave.UseVisualStyleBackColor = true;
+            this.btsave.Click += new System.EventHandler(this.btsave_Click);
             // 
             // label9
             // 
@@ -193,6 +194,7 @@ namespace projekakhir
             this.btdelete.TabIndex = 17;
             this.btdelete.Text = "DELETE";
             this.btdelete.UseVisualStyleBackColor = true;
+            this.btdelete.Click += new System.EventHandler(this.btdelete_Click);
             // 
             // btback
             // 
@@ -212,6 +214,7 @@ namespace projekakhir
             this.button2.TabIndex = 17;
             this.button2.Text = "UPDATE";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // mStore
             // 

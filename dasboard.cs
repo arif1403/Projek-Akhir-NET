@@ -33,9 +33,7 @@ namespace projekakhir
 
         private void manajemenToko_Click(object sender, EventArgs e)
         {
-            penyewa form_toko = new penyewa();
-            form_toko.Show();
-            this.Close();
+
         }
 
         private void menupenjualan_Click(object sender, EventArgs e)
@@ -95,6 +93,20 @@ namespace projekakhir
             barang brg = new barang();
             brg.Show();
             this.Hide();
+        }
+
+        private void storeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            mStore toko =new mStore();
+            toko.Show();
+            this.Hide();
+        }
+
+        private void penyewaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            penyewa form_toko = new penyewa();
+            form_toko.Show();
+            this.Close();
         }
     }
 }

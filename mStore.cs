@@ -52,5 +52,75 @@ namespace projekakhir
             showdata();
             resetdata();
         }
+
+        private void btsave_Click(object sender, EventArgs e)
+        {
+            if (tbIdtoko.Text == "" | tbnamatoko.Text == "" | cbStoreType.Text == "" | tbharga.Text == "" | tbalamat.Text == "")
+            {
+                MessageBox.Show("Semua data harus terisi","Warning!");
+                goto berhenti;
+            }
+            con.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "insert into Store values ('" + tbIdtoko.Text + "','" + tbnamatoko.Text + "', '" + cbStoreType.Text + "', '" +
+                               int.Parse(tbharga.Text) + "', '" + tbalamat.Text + "')";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            showdata();
+            resetdata();
+            resetdata();
+
+        berhenti:
+            ;
+        }
+
+        private void btdelete_Click(object sender, EventArgs e)
+        {
+            if (tbIdtoko.Text == "")
+            {
+                MessageBox.Show("Isi id toko yang akan dihapus");
+                goto berhenti;
+            }
+            con.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "delete from Store where store_id = '" + tbIdtoko.Text + "'";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            showdata();
+            resetdata();
+            resetdata();
+
+        berhenti:
+            ;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (tbIdtoko.Text == "" | tbnamatoko.Text == "" | cbStoreType.Text == "" | tbalamat.Text == "")
+            {
+                MessageBox.Show("Semua data harus di isi", "peringatan");
+                goto berhenti;
+
+            }
+            con.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "update Store set store_name = '" + tbnamatoko.Text + "', store_type='" + cbStoreType.Text + "', alamat_store='" + tbalamat.Text+
+                        "' where store_id='" + tbIdtoko.Text + "'";
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Update data Penyewa Successfully");
+            con.Close();
+            showdata();
+            resetdata();
+            resetdata();
+
+        berhenti:
+            ;
+        }
     }
 }

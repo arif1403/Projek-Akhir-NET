@@ -40,6 +40,8 @@ namespace projekakhir
             this.label1 = new System.Windows.Forms.Label();
             this.supplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.barangToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.storeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.penyewaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,6 +112,9 @@ namespace projekakhir
             // 
             // manajemenToko
             // 
+            this.manajemenToko.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.storeToolStripMenuItem,
+            this.penyewaToolStripMenuItem});
             this.manajemenToko.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manajemenToko.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.manajemenToko.Name = "manajemenToko";
@@ -151,6 +156,20 @@ namespace projekakhir
             this.barangToolStripMenuItem.Text = "Barang";
             this.barangToolStripMenuItem.Click += new System.EventHandler(this.barangToolStripMenuItem_Click);
             // 
+            // storeToolStripMenuItem
+            // 
+            this.storeToolStripMenuItem.Name = "storeToolStripMenuItem";
+            this.storeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.storeToolStripMenuItem.Text = "Store";
+            this.storeToolStripMenuItem.Click += new System.EventHandler(this.storeToolStripMenuItem_Click);
+            // 
+            // penyewaToolStripMenuItem
+            // 
+            this.penyewaToolStripMenuItem.Name = "penyewaToolStripMenuItem";
+            this.penyewaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.penyewaToolStripMenuItem.Text = "Penyewa";
+            this.penyewaToolStripMenuItem.Click += new System.EventHandler(this.penyewaToolStripMenuItem_Click);
+            // 
             // dasboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,5 +206,7 @@ namespace projekakhir
         private System.Windows.Forms.ToolStripMenuItem penjualanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem supplierToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem barangToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem storeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem penyewaToolStripMenuItem;
     }
 }

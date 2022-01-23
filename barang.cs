@@ -130,7 +130,14 @@ namespace projekakhir
 
         private void cbIdSup_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            SqlCommand cmd2 = new SqlCommand();
+            cmd2.Connection = con;
+            cmd2.CommandType = CommandType.StoredProcedure;
+            DataSet ds1 = new DataSet();
+            SqlDataAdapter sda = new SqlDataAdapter(cmd2);
+            sda.Fill(ds1, "Supplier");
+            cbIdSup.DataSource = ds1.Tables["Supplier"];
+            cbIdSup.DisplayMember = "id_supplier";
         }
     }
 }
