@@ -19,7 +19,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-      (@"Data Source =LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
+      (@"Data Source =LAPTOP-PVNKCO56\SQLEXPRESS;Initial Catalog=Supermarket;Integrated Security=True");
         private void showdata()
         {
             SqlCommand cmd = new SqlCommand();
@@ -157,6 +157,12 @@ namespace projekakhir
             printer.Footer = "Terimakasih";
             printer.FooterSpacing = 15;
             printer.PrintDataGridView(dgvtoko);
+        }
+
+        private void btnBarang_Click(object sender, EventArgs e)
+        {
+            barang brg = new barang();
+            brg.Show();
         }
     }
 }

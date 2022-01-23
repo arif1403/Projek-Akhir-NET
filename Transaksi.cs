@@ -18,7 +18,7 @@ namespace projekakhir
             InitializeComponent();
         }
         SqlConnection con = new SqlConnection
-       (@"Data Source =LAPTOP-3MGL4NVJ\SQLEXPRESS;Initial Catalog=SupermarketMS;Integrated Security=True");
+       (@"Data Source =LAPTOP-PVNKCO56\SQLEXPRESS;Initial Catalog=Supermarket;Integrated Security=True");
         
         private void resetdata()
         {
@@ -29,7 +29,7 @@ namespace projekakhir
             tbHarga.Text = "";
             dateTimePicker1.Text = "";
             tbBrng.Text = "";
-            tbKaryawan.Text = "";
+         
             
 
         }
@@ -65,7 +65,7 @@ namespace projekakhir
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
-            if (tbIdTrans.Text == "" | tbIdToko.Text == "" | tbIdPenyewa.Text == "" | tbHarga.Text == "" |tbBrng.Text ==""|tbKaryawan.Text == ""|dateTimePicker1.Text=="")
+            if (tbIdTrans.Text == "" | tbIdToko.Text == "" | tbIdPenyewa.Text == "" | tbHarga.Text == "" |tbBrng.Text ==""|dateTimePicker1.Text=="")
             //gunakan OR untuk argumen membandingkan
             {
                 MessageBox.Show("Semua data harus diisi", "Peringatan");

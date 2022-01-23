@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="barang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="barang.Designer.cs">
+      <DependentUpon>barang.cs</DependentUpon>
+    </Compile>
     <Compile Include="dasboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     <Compile Include="Transaksi.Designer.cs">
       <DependentUpon>Transaksi.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="barang.resx">
+      <DependentUpon>barang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dasboard.resx">
       <DependentUpon>dasboard.cs</DependentUpon>
     </EmbeddedResource>
