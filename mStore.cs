@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DGVPrinterHelper;
 
 namespace projekakhir
 {
@@ -28,9 +29,9 @@ namespace projekakhir
             DataSet ds = new DataSet();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(ds, "Store");
-            dgvtransaksi.DataSource = ds;
-            dgvtransaksi.DataMember = "Store";
-            dgvtransaksi.ReadOnly = true;
+            dgvStore.DataSource = ds;
+            dgvStore.DataMember = "Store";
+            dgvStore.ReadOnly = true;
         }
         private void resetdata()
         {
@@ -121,6 +122,18 @@ namespace projekakhir
 
         berhenti:
             ;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DGVPrinter printer = new DGVPrinter();
+            printer.Title = "Data Store";
+            printer.PageNumbers = true;
+            printer.PageNumberInHeader = false;
+            printer.PorportionalColumns = true;
+            printer.Footer = "Terimakasih";
+            printer.FooterSpacing = 15;
+            printer.PrintDataGridView(dgvStore);
         }
     }
 }

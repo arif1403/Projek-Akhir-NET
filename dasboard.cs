@@ -21,14 +21,14 @@ namespace projekakhir
         {
             Mkaryawan form_karyawan = new Mkaryawan();
             form_karyawan.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void menulaporanpenjualan_Click(object sender, EventArgs e)
         {
             laporan form_laporan = new laporan();
             form_laporan.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void manajemenToko_Click(object sender, EventArgs e)
@@ -66,14 +66,14 @@ namespace projekakhir
         {
             Transaksi trans = new Transaksi();
             trans.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void penjualanToolStripMenuItem_Click(object sender, EventArgs e)
         {
             mStore mPenjualan = new mStore();
             mPenjualan.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void dasboard_Load(object sender, EventArgs e)
@@ -106,7 +106,7 @@ namespace projekakhir
         {
             penyewa form_toko = new penyewa();
             form_toko.Show();
-            this.Close();
+            this.Hide();
         }
     }
 }

@@ -73,7 +73,7 @@ namespace projekakhir
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "insert into Penyewa values ('" + tbid.Text + "','"+tbnama.Text+"', '" + tbalamat.Text + "', '" + 
-                               "','"+ int.Parse(tbharga.Text) + "', '" + int.Parse(tblamasewa.Text) + "')";
+                               int.Parse(tbharga.Text) + "', '" + int.Parse(tblamasewa.Text) + "')";
             cmd.ExecuteNonQuery();
             con.Close();
             showdata();
@@ -119,7 +119,7 @@ namespace projekakhir
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "update Penyewa set penyewa_name = '" + tbnama.Text + "', alamat_penyewa='" + tbalamat.Text + "', penyewa_type='" +
+            cmd.CommandText = "update Penyewa set penyewa_name = '" + tbnama.Text + "', alamat_penyewa='" + tbalamat.Text +
                         "', harga_sewa = '" + int.Parse(tbharga.Text) + "', lama_sewa='" + int.Parse(tblamasewa.Text) + 
                         "' where penyewa_id='" + tbid.Text + "'";
             cmd.ExecuteNonQuery();

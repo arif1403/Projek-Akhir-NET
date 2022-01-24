@@ -270,6 +270,7 @@ namespace projekakhir
             this.btcari.Name = "btcari";
             this.btcari.Size = new System.Drawing.Size(36, 36);
             this.btcari.Text = "toolStripButton2";
+            this.btcari.Click += new System.EventHandler(this.btcari_Click);
             // 
             // button1
             // 

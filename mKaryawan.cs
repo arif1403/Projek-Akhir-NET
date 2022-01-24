@@ -125,7 +125,7 @@ namespace projekakhir
                  MessageBox.Show("Pilih Id untuk Delete","Warning!");
                  goto berhenti;
             }
-            int telp = Convert.ToInt32(tbnmrtlp.Text);
+            //int telp = Convert.ToInt32(tbnmrtlp.Text);
                 con.Open();
                  SqlCommand cmd = new SqlCommand();
                  cmd.Connection = con;
@@ -209,6 +209,20 @@ namespace projekakhir
             printer.Footer = "Terimakasih";
             printer.FooterSpacing = 15;
             printer.PrintDataGridView(dgvkaryawan);
+        }
+
+        private void btcari_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = " select * from Karyawan where id_karyawan like '%" + tbcari.Text + "%'";
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(ds, "Karyawan");
+            dgvkaryawan.DataSource = ds;
+            dgvkaryawan.DataMember = "Karyawan";
+            dgvkaryawan.ReadOnly = true;
         }
     }
 }

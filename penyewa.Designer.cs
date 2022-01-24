@@ -155,6 +155,7 @@ namespace projekakhir
             // tbid
             // 
             this.tbid.BackColor = System.Drawing.Color.Navy;
+            this.tbid.ForeColor = System.Drawing.Color.White;
             this.tbid.Location = new System.Drawing.Point(149, 118);
             this.tbid.Margin = new System.Windows.Forms.Padding(2);
             this.tbid.Name = "tbid";
@@ -164,6 +165,7 @@ namespace projekakhir
             // tbnama
             // 
             this.tbnama.BackColor = System.Drawing.Color.Navy;
+            this.tbnama.ForeColor = System.Drawing.Color.White;
             this.tbnama.Location = new System.Drawing.Point(149, 148);
             this.tbnama.Margin = new System.Windows.Forms.Padding(2);
             this.tbnama.Name = "tbnama";
@@ -173,6 +175,7 @@ namespace projekakhir
             // tbalamat
             // 
             this.tbalamat.BackColor = System.Drawing.Color.Navy;
+            this.tbalamat.ForeColor = System.Drawing.Color.White;
             this.tbalamat.Location = new System.Drawing.Point(149, 215);
             this.tbalamat.Margin = new System.Windows.Forms.Padding(2);
             this.tbalamat.Name = "tbalamat";
@@ -193,6 +196,7 @@ namespace projekakhir
             // tbharga
             // 
             this.tbharga.BackColor = System.Drawing.Color.Navy;
+            this.tbharga.ForeColor = System.Drawing.Color.White;
             this.tbharga.Location = new System.Drawing.Point(149, 247);
             this.tbharga.Margin = new System.Windows.Forms.Padding(2);
             this.tbharga.Name = "tbharga";
@@ -213,6 +217,7 @@ namespace projekakhir
             // tblamasewa
             // 
             this.tblamasewa.BackColor = System.Drawing.Color.Navy;
+            this.tblamasewa.ForeColor = System.Drawing.Color.White;
             this.tblamasewa.Location = new System.Drawing.Point(149, 279);
             this.tblamasewa.Margin = new System.Windows.Forms.Padding(2);
             this.tblamasewa.Name = "tblamasewa";
